@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98B8F0D521E7579E00387F7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B8F0D421E7579E00387F7C /* AppDelegate.m */; };
+		98B8F0D821E7579E00387F7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B8F0D721E7579E00387F7C /* ViewController.m */; };
+		98B8F0DB21E7579E00387F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B8F0D921E7579E00387F7C /* Main.storyboard */; };
+		98B8F0DD21E757A100387F7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98B8F0DC21E757A100387F7C /* Assets.xcassets */; };
+		98B8F0E021E757A100387F7C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B8F0DE21E757A100387F7C /* LaunchScreen.storyboard */; };
+		98B8F0E321E757A100387F7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B8F0E221E757A100387F7C /* main.m */; };
+		98B8F0ED21E757A200387F7C /* SNFFmpegTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B8F0EC21E757A200387F7C /* SNFFmpegTests.m */; };
+		98B8F0F821E757A200387F7C /* SNFFmpegUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B8F0F721E757A200387F7C /* SNFFmpegUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98B8F0E921E757A200387F7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98B8F0C821E7579D00387F7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98B8F0CF21E7579E00387F7C;
+			remoteInfo = SNFFmpeg;
+		};
+		98B8F0F421E757A200387F7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98B8F0C821E7579D00387F7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98B8F0CF21E7579E00387F7C;
+			remoteInfo = SNFFmpeg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98B8F0D021E7579E00387F7C /* SNFFmpeg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNFFmpeg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B8F0D321E7579E00387F7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98B8F0D421E7579E00387F7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98B8F0D621E7579E00387F7C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		98B8F0D721E7579E00387F7C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		98B8F0DA21E7579E00387F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98B8F0DC21E757A100387F7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98B8F0DF21E757A100387F7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		98B8F0E121E757A100387F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B8F0E221E757A100387F7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98B8F0E821E757A200387F7C /* SNFFmpegTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNFFmpegTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B8F0EC21E757A200387F7C /* SNFFmpegTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNFFmpegTests.m; sourceTree = "<group>"; };
+		98B8F0EE21E757A200387F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98B8F0F321E757A200387F7C /* SNFFmpegUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNFFmpegUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B8F0F721E757A200387F7C /* SNFFmpegUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNFFmpegUITests.m; sourceTree = "<group>"; };
+		98B8F0F921E757A200387F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98B8F0CD21E7579E00387F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B8F0E521E757A200387F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B8F0F021E757A200387F7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98B8F0C721E7579D00387F7C = {
+			isa = PBXGroup;
+			children = (
+				98B8F0D221E7579E00387F7C /* SNFFmpeg */,
+				98B8F0EB21E757A200387F7C /* SNFFmpegTests */,
+				98B8F0F621E757A200387F7C /* SNFFmpegUITests */,
+				98B8F0D121E7579E00387F7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98B8F0D121E7579E00387F7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98B8F0D021E7579E00387F7C /* SNFFmpeg.app */,
+				98B8F0E821E757A200387F7C /* SNFFmpegTests.xctest */,
+				98B8F0F321E757A200387F7C /* SNFFmpegUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98B8F0D221E7579E00387F7C /* SNFFmpeg */ = {
+			isa = PBXGroup;
+			children = (
+				98B8F0D321E7579E00387F7C /* AppDelegate.h */,
+				98B8F0D421E7579E00387F7C /* AppDelegate.m */,
+				98B8F0D621E7579E00387F7C /* ViewController.h */,
+				98B8F0D721E7579E00387F7C /* ViewController.m */,
+				98B8F0D921E7579E00387F7C /* Main.storyboard */,
+				98B8F0DC21E757A100387F7C /* Assets.xcassets */,
+				98B8F0DE21E757A100387F7C /* LaunchScreen.storyboard */,
+				98B8F0E121E757A100387F7C /* Info.plist */,
+				98B8F0E221E757A100387F7C /* main.m */,
+			);
+			path = SNFFmpeg;
+			sourceTree = "<group>";
+		};
+		98B8F0EB21E757A200387F7C /* SNFFmpegTests */ = {
+			isa = PBXGroup;
+			children = (
+				98B8F0EC21E757A200387F7C /* SNFFmpegTests.m */,
+				98B8F0EE21E757A200387F7C /* Info.plist */,
+			);
+			path = SNFFmpegTests;
+			sourceTree = "<group>";
+		};
+		98B8F0F621E757A200387F7C /* SNFFmpegUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98B8F0F721E757A200387F7C /* SNFFmpegUITests.m */,
+				98B8F0F921E757A200387F7C /* Info.plist */,
+			);
+			path = SNFFmpegUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98B8F0CF21E7579E00387F7C /* SNFFmpeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98B8F0FC21E757A200387F7C /* Build configuration list for PBXNativeTarget "SNFFmpeg" */;
+			buildPhases = (
+				98B8F0CC21E7579E00387F7C /* Sources */,
+				98B8F0CD21E7579E00387F7C /* Frameworks */,
+				98B8F0CE21E7579E00387F7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNFFmpeg;
+			productName = SNFFmpeg;
+			productReference = 98B8F0D021E7579E00387F7C /* SNFFmpeg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98B8F0E721E757A200387F7C /* SNFFmpegTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98B8F0FF21E757A200387F7C /* Build configuration list for PBXNativeTarget "SNFFmpegTests" */;
+			buildPhases = (
+				98B8F0E421E757A200387F7C /* Sources */,
+				98B8F0E521E757A200387F7C /* Frameworks */,
+				98B8F0E621E757A200387F7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98B8F0EA21E757A200387F7C /* PBXTargetDependency */,
+			);
+			name = SNFFmpegTests;
+			productName = SNFFmpegTests;
+			productReference = 98B8F0E821E757A200387F7C /* SNFFmpegTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98B8F0F221E757A200387F7C /* SNFFmpegUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98B8F10221E757A200387F7C /* Build configuration list for PBXNativeTarget "SNFFmpegUITests" */;
+			buildPhases = (
+				98B8F0EF21E757A200387F7C /* Sources */,
+				98B8F0F021E757A200387F7C /* Frameworks */,
+				98B8F0F121E757A200387F7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98B8F0F521E757A200387F7C /* PBXTargetDependency */,
+			);
+			name = SNFFmpegUITests;
+			productName = SNFFmpegUITests;
+			productReference = 98B8F0F321E757A200387F7C /* SNFFmpegUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98B8F0C821E7579D00387F7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = snlo;
+				TargetAttributes = {
+					98B8F0CF21E7579E00387F7C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					98B8F0E721E757A200387F7C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 98B8F0CF21E7579E00387F7C;
+					};
+					98B8F0F221E757A200387F7C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 98B8F0CF21E7579E00387F7C;
+					};
+				};
+			};
+			buildConfigurationList = 98B8F0CB21E7579D00387F7C /* Build configuration list for PBXProject "SNFFmpeg" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98B8F0C721E7579D00387F7C;
+			productRefGroup = 98B8F0D121E7579E00387F7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98B8F0CF21E7579E00387F7C /* SNFFmpeg */,
+				98B8F0E721E757A200387F7C /* SNFFmpegTests */,
+				98B8F0F221E757A200387F7C /* SNFFmpegUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98B8F0CE21E7579E00387F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B8F0E021E757A100387F7C /* LaunchScreen.storyboard in Resources */,
+				98B8F0DD21E757A100387F7C /* Assets.xcassets in Resources */,
+				98B8F0DB21E7579E00387F7C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B8F0E621E757A200387F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B8F0F121E757A200387F7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98B8F0CC21E7579E00387F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B8F0D821E7579E00387F7C /* ViewController.m in Sources */,
+				98B8F0E321E757A100387F7C /* main.m in Sources */,
+				98B8F0D521E7579E00387F7C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B8F0E421E757A200387F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B8F0ED21E757A200387F7C /* SNFFmpegTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98B8F0EF21E757A200387F7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98B8F0F821E757A200387F7C /* SNFFmpegUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98B8F0EA21E757A200387F7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98B8F0CF21E7579E00387F7C /* SNFFmpeg */;
+			targetProxy = 98B8F0E921E757A200387F7C /* PBXContainerItemProxy */;
+		};
+		98B8F0F521E757A200387F7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98B8F0CF21E7579E00387F7C /* SNFFmpeg */;
+			targetProxy = 98B8F0F421E757A200387F7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98B8F0D921E7579E00387F7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98B8F0DA21E7579E00387F7C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		98B8F0DE21E757A100387F7C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98B8F0DF21E757A100387F7C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98B8F0FA21E757A200387F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98B8F0FB21E757A200387F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98B8F0FD21E757A200387F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNFFmpeg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNFFmpeg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98B8F0FE21E757A200387F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNFFmpeg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNFFmpeg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		98B8F10021E757A200387F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNFFmpegTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNFFmpegTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNFFmpeg.app/SNFFmpeg";
+			};
+			name = Debug;
+		};
+		98B8F10121E757A200387F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNFFmpegTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNFFmpegTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNFFmpeg.app/SNFFmpeg";
+			};
+			name = Release;
+		};
+		98B8F10321E757A200387F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNFFmpegUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNFFmpegUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SNFFmpeg;
+			};
+			name = Debug;
+		};
+		98B8F10421E757A200387F7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNFFmpegUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNFFmpegUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SNFFmpeg;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98B8F0CB21E7579D00387F7C /* Build configuration list for PBXProject "SNFFmpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B8F0FA21E757A200387F7C /* Debug */,
+				98B8F0FB21E757A200387F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98B8F0FC21E757A200387F7C /* Build configuration list for PBXNativeTarget "SNFFmpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B8F0FD21E757A200387F7C /* Debug */,
+				98B8F0FE21E757A200387F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98B8F0FF21E757A200387F7C /* Build configuration list for PBXNativeTarget "SNFFmpegTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B8F10021E757A200387F7C /* Debug */,
+				98B8F10121E757A200387F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98B8F10221E757A200387F7C /* Build configuration list for PBXNativeTarget "SNFFmpegUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98B8F10321E757A200387F7C /* Debug */,
+				98B8F10421E757A200387F7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98B8F0C821E7579D00387F7C /* Project object */;
+}
