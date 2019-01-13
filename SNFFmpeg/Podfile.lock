@@ -1,0 +1,16 @@
+PODS:
+  - SNFileManager (0.0.1)
+
+DEPENDENCIES:
+  - SNFileManager
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SNFileManager
+
+SPEC CHECKSUMS:
+  SNFileManager: 5afd2c2268e1125fef814d97c65c58b94488bdfe
+
+PODFILE CHECKSUM: e4b99556227e40506c3359e67383942b5fd1dce0
+
+COCOAPODS: 1.6.0.beta.2

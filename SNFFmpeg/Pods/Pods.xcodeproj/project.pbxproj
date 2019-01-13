@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15E0D39AD1A2BA4FE6894CD89463B1FC /* Pods-SNFFmpeg-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D0DCCA9DCD04C0B977699E028C879F /* Pods-SNFFmpeg-dummy.m */; };
+		40E38B84402923F49CDEBF2704139772 /* SNFileManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 878D53DA1D1823C8769061ABF1D3074B /* SNFileManager-dummy.m */; };
+		91585B3EE5B8461B34DA81A16C8798F8 /* Pods-SNFFmpegUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C791BDE598F1ECEE4BBCF5EA91EC4E2A /* Pods-SNFFmpegUITests-dummy.m */; };
+		B5E9918729C5AC372E52645081964C61 /* Pods-SNFFmpegTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECAA485A6E21FCB3190A10E34AB2603 /* Pods-SNFFmpegTests-dummy.m */; };
+		C2322A574DE9E800D1E0D3477CCA8E69 /* SNFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FA9A67E08CDA989E68C8A3CCDD8633F /* SNFileManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C39DEFE2C561FC2A3BBA59C115D353EE /* SNFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B19792A79D02D97E1DF222051DA2E04E /* SNFileManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		016D12F87B5B49A41B6043DB7063760A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4F238F13E31B429D29C4BEEB81E7AF9;
+			remoteInfo = "Pods-SNFFmpeg";
+		};
+		7F6AEFD71EF3046DF8B199013842F870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0DB5C207F291CFEA12FA104899C4953;
+			remoteInfo = SNFileManager;
+		};
+		DC6B20B5DF5EBC55A648BC1E3C5F49A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4F238F13E31B429D29C4BEEB81E7AF9;
+			remoteInfo = "Pods-SNFFmpeg";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1680AAE336B4A373348B42E5AE66ABD2 /* Pods-SNFFmpegUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNFFmpegUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2BC1A7A3E2ED7FCAD8AE7CE5A4102F44 /* Pods-SNFFmpegUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNFFmpegUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2EA70E2E59A3C3C9901021481669628D /* Pods-SNFFmpeg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNFFmpeg.debug.xcconfig"; sourceTree = "<group>"; };
+		35394C5A7BC34922E0A47F0B1361D464 /* SNFileManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNFileManager-prefix.pch"; sourceTree = "<group>"; };
+		44E80E66983F4AF0891A3AC64B34B8A6 /* Pods-SNFFmpegUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNFFmpegUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4ECAA485A6E21FCB3190A10E34AB2603 /* Pods-SNFFmpegTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNFFmpegTests-dummy.m"; sourceTree = "<group>"; };
+		4FA9A67E08CDA989E68C8A3CCDD8633F /* SNFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SNFileManager.h; path = SNFileManager/SNFileManager/SNFileManager.h; sourceTree = "<group>"; };
+		596AD96B1F67C6DD0773BACAFFF84D80 /* libPods-SNFFmpegTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SNFFmpegTests.a"; path = "libPods-SNFFmpegTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA936AC2982FD38F90225599B365D18 /* Pods-SNFFmpegTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNFFmpegTests.release.xcconfig"; sourceTree = "<group>"; };
+		764127CFB491A513D308991E406CD8BD /* Pods-SNFFmpeg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNFFmpeg.release.xcconfig"; sourceTree = "<group>"; };
+		82048E9B2FE55F795024E5DC6033FBAF /* libPods-SNFFmpeg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SNFFmpeg.a"; path = "libPods-SNFFmpeg.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		878D53DA1D1823C8769061ABF1D3074B /* SNFileManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SNFileManager-dummy.m"; sourceTree = "<group>"; };
+		921E9C274B8281D8D44BCD360AD57617 /* SNFileManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SNFileManager.xcconfig; sourceTree = "<group>"; };
+		A212304DEC2720BCCDFEA0600CA8779C /* libSNFileManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSNFileManager.a; path = libSNFileManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C91A1C4241CF40F44BC0062F671003 /* Pods-SNFFmpegTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNFFmpegTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B19792A79D02D97E1DF222051DA2E04E /* SNFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SNFileManager.m; path = SNFileManager/SNFileManager/SNFileManager.m; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C791BDE598F1ECEE4BBCF5EA91EC4E2A /* Pods-SNFFmpegUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNFFmpegUITests-dummy.m"; sourceTree = "<group>"; };
+		D46BCCC66AE37C0E4C5B8D37CF435968 /* Pods-SNFFmpegTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNFFmpegTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA43F3D7DBF6FE1D4EC929624A318D21 /* libPods-SNFFmpegUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SNFFmpegUITests.a"; path = "libPods-SNFFmpegUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A9C84A829F6CE59B51074E1818B231 /* Pods-SNFFmpeg-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNFFmpeg-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE8E3F08ED035D2D477E0BB2E92E5F8A /* Pods-SNFFmpegTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNFFmpegTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2D0DCCA9DCD04C0B977699E028C879F /* Pods-SNFFmpeg-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNFFmpeg-dummy.m"; sourceTree = "<group>"; };
+		F36AECCDFC7A1F90F7BB74C3B9DADB84 /* Pods-SNFFmpegUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNFFmpegUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCF3A7972A989462F1584C8DEED56850 /* Pods-SNFFmpeg-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNFFmpeg-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05219DDF070324DB2A5EF6A2270B9E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B1B59829A33B1C33AC37A59A17D7A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5345C48C3B4CBF2AA9A8CF170F22BF36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D41BC4BB86FA2BD588B366A4CE176A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1000173D9663064A8748212D6FD3260E /* Pods-SNFFmpegUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1680AAE336B4A373348B42E5AE66ABD2 /* Pods-SNFFmpegUITests-acknowledgements.markdown */,
+				2BC1A7A3E2ED7FCAD8AE7CE5A4102F44 /* Pods-SNFFmpegUITests-acknowledgements.plist */,
+				C791BDE598F1ECEE4BBCF5EA91EC4E2A /* Pods-SNFFmpegUITests-dummy.m */,
+				F36AECCDFC7A1F90F7BB74C3B9DADB84 /* Pods-SNFFmpegUITests.debug.xcconfig */,
+				44E80E66983F4AF0891A3AC64B34B8A6 /* Pods-SNFFmpegUITests.release.xcconfig */,
+			);
+			name = "Pods-SNFFmpegUITests";
+			path = "Target Support Files/Pods-SNFFmpegUITests";
+			sourceTree = "<group>";
+		};
+		260C6F95D8CCC22EC69A00DA55F1B9E5 /* SNFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				4FA9A67E08CDA989E68C8A3CCDD8633F /* SNFileManager.h */,
+				B19792A79D02D97E1DF222051DA2E04E /* SNFileManager.m */,
+				BF76F81793F622B7E2E030F32E415D77 /* Support Files */,
+			);
+			name = SNFileManager;
+			path = SNFileManager;
+			sourceTree = "<group>";
+		};
+		78BE3489517BBEB1ECB469DC5220BE95 /* Pods-SNFFmpegTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7C91A1C4241CF40F44BC0062F671003 /* Pods-SNFFmpegTests-acknowledgements.markdown */,
+				D46BCCC66AE37C0E4C5B8D37CF435968 /* Pods-SNFFmpegTests-acknowledgements.plist */,
+				4ECAA485A6E21FCB3190A10E34AB2603 /* Pods-SNFFmpegTests-dummy.m */,
+				EE8E3F08ED035D2D477E0BB2E92E5F8A /* Pods-SNFFmpegTests.debug.xcconfig */,
+				6DA936AC2982FD38F90225599B365D18 /* Pods-SNFFmpegTests.release.xcconfig */,
+			);
+			name = "Pods-SNFFmpegTests";
+			path = "Target Support Files/Pods-SNFFmpegTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				E5196C192A230A18FA8AE865DD081FC8 /* Pods */,
+				E29CFE2570B9C5B17940344C68C834BC /* Products */,
+				D47D58C74A054557F3598825EFBFE8CF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		941CB978A0BBE7243555D0DD8109FCA5 /* Pods-SNFFmpeg */ = {
+			isa = PBXGroup;
+			children = (
+				FCF3A7972A989462F1584C8DEED56850 /* Pods-SNFFmpeg-acknowledgements.markdown */,
+				E5A9C84A829F6CE59B51074E1818B231 /* Pods-SNFFmpeg-acknowledgements.plist */,
+				F2D0DCCA9DCD04C0B977699E028C879F /* Pods-SNFFmpeg-dummy.m */,
+				2EA70E2E59A3C3C9901021481669628D /* Pods-SNFFmpeg.debug.xcconfig */,
+				764127CFB491A513D308991E406CD8BD /* Pods-SNFFmpeg.release.xcconfig */,
+			);
+			name = "Pods-SNFFmpeg";
+			path = "Target Support Files/Pods-SNFFmpeg";
+			sourceTree = "<group>";
+		};
+		BF76F81793F622B7E2E030F32E415D77 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				921E9C274B8281D8D44BCD360AD57617 /* SNFileManager.xcconfig */,
+				878D53DA1D1823C8769061ABF1D3074B /* SNFileManager-dummy.m */,
+				35394C5A7BC34922E0A47F0B1361D464 /* SNFileManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SNFileManager";
+			sourceTree = "<group>";
+		};
+		D47D58C74A054557F3598825EFBFE8CF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				941CB978A0BBE7243555D0DD8109FCA5 /* Pods-SNFFmpeg */,
+				78BE3489517BBEB1ECB469DC5220BE95 /* Pods-SNFFmpegTests */,
+				1000173D9663064A8748212D6FD3260E /* Pods-SNFFmpegUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E29CFE2570B9C5B17940344C68C834BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82048E9B2FE55F795024E5DC6033FBAF /* libPods-SNFFmpeg.a */,
+				596AD96B1F67C6DD0773BACAFFF84D80 /* libPods-SNFFmpegTests.a */,
+				DA43F3D7DBF6FE1D4EC929624A318D21 /* libPods-SNFFmpegUITests.a */,
+				A212304DEC2720BCCDFEA0600CA8779C /* libSNFileManager.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5196C192A230A18FA8AE865DD081FC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				260C6F95D8CCC22EC69A00DA55F1B9E5 /* SNFileManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2E41AF47981B3FEC07C78243C73FFF02 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C910FB192F94AC1A1EB3515AC505600 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85DBE7F8DF3FA9DDAAA510E00EA8E51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F865C1FC255DBF3535A24D3312205967 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2322A574DE9E800D1E0D3477CCA8E69 /* SNFileManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		854378E1B4B125B472EFCB3FC16CA303 /* Pods-SNFFmpegUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6C3B98C0166C3729A59F67296149882 /* Build configuration list for PBXNativeTarget "Pods-SNFFmpegUITests" */;
+			buildPhases = (
+				9C910FB192F94AC1A1EB3515AC505600 /* Headers */,
+				CCA05D624E36AA37B12B756948F9FC8B /* Sources */,
+				05219DDF070324DB2A5EF6A2270B9E6C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A4BA35FD8F780A814CC4CAC64D90ECD /* PBXTargetDependency */,
+			);
+			name = "Pods-SNFFmpegUITests";
+			productName = "Pods-SNFFmpegUITests";
+			productReference = DA43F3D7DBF6FE1D4EC929624A318D21 /* libPods-SNFFmpegUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C0DB5C207F291CFEA12FA104899C4953 /* SNFileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E50DCF4626358EED410924D860AE61DF /* Build configuration list for PBXNativeTarget "SNFileManager" */;
+			buildPhases = (
+				F865C1FC255DBF3535A24D3312205967 /* Headers */,
+				B635648ED8E4A44C4E4763B6BF855179 /* Sources */,
+				44B1B59829A33B1C33AC37A59A17D7A6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNFileManager;
+			productName = SNFileManager;
+			productReference = A212304DEC2720BCCDFEA0600CA8779C /* libSNFileManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F4F238F13E31B429D29C4BEEB81E7AF9 /* Pods-SNFFmpeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77F0F9C9B40137A3085E8BFB0742846D /* Build configuration list for PBXNativeTarget "Pods-SNFFmpeg" */;
+			buildPhases = (
+				2E41AF47981B3FEC07C78243C73FFF02 /* Headers */,
+				E4DC1B39FCC0434F851A9F3A2116A2C5 /* Sources */,
+				5345C48C3B4CBF2AA9A8CF170F22BF36 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				660F8CA836B15714B65632994C1607F4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SNFFmpeg";
+			productName = "Pods-SNFFmpeg";
+			productReference = 82048E9B2FE55F795024E5DC6033FBAF /* libPods-SNFFmpeg.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F7816CA23F29468CEAE70AFF422A04B0 /* Pods-SNFFmpegTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DBD937234757C01BEF69C73B9180DE4 /* Build configuration list for PBXNativeTarget "Pods-SNFFmpegTests" */;
+			buildPhases = (
+				F85DBE7F8DF3FA9DDAAA510E00EA8E51 /* Headers */,
+				EC50F17A775F42B425918E55421B7EC0 /* Sources */,
+				F1D41BC4BB86FA2BD588B366A4CE176A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CEF90E6B3E3C1F11B9B00C62A08EFB5 /* PBXTargetDependency */,
+			);
+			name = "Pods-SNFFmpegTests";
+			productName = "Pods-SNFFmpegTests";
+			productReference = 596AD96B1F67C6DD0773BACAFFF84D80 /* libPods-SNFFmpegTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E29CFE2570B9C5B17940344C68C834BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4F238F13E31B429D29C4BEEB81E7AF9 /* Pods-SNFFmpeg */,
+				F7816CA23F29468CEAE70AFF422A04B0 /* Pods-SNFFmpegTests */,
+				854378E1B4B125B472EFCB3FC16CA303 /* Pods-SNFFmpegUITests */,
+				C0DB5C207F291CFEA12FA104899C4953 /* SNFileManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B635648ED8E4A44C4E4763B6BF855179 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E38B84402923F49CDEBF2704139772 /* SNFileManager-dummy.m in Sources */,
+				C39DEFE2C561FC2A3BBA59C115D353EE /* SNFileManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA05D624E36AA37B12B756948F9FC8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91585B3EE5B8461B34DA81A16C8798F8 /* Pods-SNFFmpegUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4DC1B39FCC0434F851A9F3A2116A2C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E0D39AD1A2BA4FE6894CD89463B1FC /* Pods-SNFFmpeg-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC50F17A775F42B425918E55421B7EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5E9918729C5AC372E52645081964C61 /* Pods-SNFFmpegTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CEF90E6B3E3C1F11B9B00C62A08EFB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SNFFmpeg";
+			target = F4F238F13E31B429D29C4BEEB81E7AF9 /* Pods-SNFFmpeg */;
+			targetProxy = DC6B20B5DF5EBC55A648BC1E3C5F49A6 /* PBXContainerItemProxy */;
+		};
+		660F8CA836B15714B65632994C1607F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SNFileManager;
+			target = C0DB5C207F291CFEA12FA104899C4953 /* SNFileManager */;
+			targetProxy = 7F6AEFD71EF3046DF8B199013842F870 /* PBXContainerItemProxy */;
+		};
+		7A4BA35FD8F780A814CC4CAC64D90ECD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SNFFmpeg";
+			target = F4F238F13E31B429D29C4BEEB81E7AF9 /* Pods-SNFFmpeg */;
+			targetProxy = 016D12F87B5B49A41B6043DB7063760A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F0800CE8E37AAEEC505B93DEC9402E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F36AECCDFC7A1F90F7BB74C3B9DADB84 /* Pods-SNFFmpegUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		105F90BF10F8688032FB629A9DA204FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		332588A487639C1B2AFA3A4AD700F106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE8E3F08ED035D2D477E0BB2E92E5F8A /* Pods-SNFFmpegTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4523AD7643ED91A440EAEA20025EC111 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5EF666A40A70F321D3CB7D6551571CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EA70E2E59A3C3C9901021481669628D /* Pods-SNFFmpeg.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B381656BE0814D9A9BA49A80C2873C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 764127CFB491A513D308991E406CD8BD /* Pods-SNFFmpeg.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		751F5E23FD12539783FAF1F857AB9448 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA936AC2982FD38F90225599B365D18 /* Pods-SNFFmpegTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E4D01E025F5459FDB6CAB9C88D21553 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 921E9C274B8281D8D44BCD360AD57617 /* SNFileManager.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SNFileManager/SNFileManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SNFileManager;
+				PRODUCT_NAME = SNFileManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA0AD2CB94ABE1E1C06A932032567AAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 921E9C274B8281D8D44BCD360AD57617 /* SNFileManager.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SNFileManager/SNFileManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SNFileManager;
+				PRODUCT_NAME = SNFileManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E49BFA2A84290D3A36F3CD5BDF995351 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E80E66983F4AF0891A3AC64B34B8A6 /* Pods-SNFFmpegUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105F90BF10F8688032FB629A9DA204FD /* Debug */,
+				4523AD7643ED91A440EAEA20025EC111 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DBD937234757C01BEF69C73B9180DE4 /* Build configuration list for PBXNativeTarget "Pods-SNFFmpegTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				332588A487639C1B2AFA3A4AD700F106 /* Debug */,
+				751F5E23FD12539783FAF1F857AB9448 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77F0F9C9B40137A3085E8BFB0742846D /* Build configuration list for PBXNativeTarget "Pods-SNFFmpeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EF666A40A70F321D3CB7D6551571CC3 /* Debug */,
+				6B381656BE0814D9A9BA49A80C2873C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6C3B98C0166C3729A59F67296149882 /* Build configuration list for PBXNativeTarget "Pods-SNFFmpegUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F0800CE8E37AAEEC505B93DEC9402E9 /* Debug */,
+				E49BFA2A84290D3A36F3CD5BDF995351 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E50DCF4626358EED410924D860AE61DF /* Build configuration list for PBXNativeTarget "SNFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0AD2CB94ABE1E1C06A932032567AAF /* Debug */,
+				9E4D01E025F5459FDB6CAB9C88D21553 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
