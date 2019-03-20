@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 #import <mobileffmpeg/mobileffmpeg.h>
+#import <mobileffmpeg/fftools_ffmpeg.h>
 #import "SNFileManager.h"
 
 @interface ViewController ()
@@ -28,9 +29,19 @@
 	if (![MobileFFmpeg execute:[NSString stringWithFormat:@"-i %@ %@test.gif",fromFile,toFile]]) {
 		NSLog(@"gif转换👌");
 	}
-	if (![MobileFFmpeg execute:[NSString stringWithFormat:@"-i %@ -f wav -ar 16000 %@test.wav",fromFile,toFile]]) {
-		NSLog(@"音频提取👌");
-	}
+    if (![MobileFFmpeg execute:[NSString stringWithFormat:@"-i %@ -f wav -ar 16000 %@test.wav",fromFile,toFile]]) {
+        NSLog(@"音频提取👌");
+
+//        ffmpeg -i input.mp3 -c:a libfdk_aac -vbr 5 output.m4a
+
+    }
+    NSString * AUfromFile = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"wav"];
+    if ([MobileFFmpeg execute:[NSString stringWithFormat:@"-i %@ -c:a libfdk_aac -vbr 5 %@output.m4a",AUfromFile,[SNFileManager parentPathAtPath:AUfromFile]]] < 1) {
+        NSLog(@".m4a转码成功");
+    }
+    
+    
+    
 }
 
 

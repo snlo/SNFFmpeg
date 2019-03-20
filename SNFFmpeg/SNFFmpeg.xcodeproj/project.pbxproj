@@ -17,6 +17,7 @@
 		5E59FAAF21EB4F8800C642AB /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E59FAAE21EB4F8800C642AB /* libbz2.tbd */; };
 		5E59FAB121EB4F9200C642AB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E59FAB021EB4F9200C642AB /* libc++.tbd */; };
 		5E59FAB421EB50F700C642AB /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5E59FAB321EB50F700C642AB /* test.mp4 */; };
+		9840D33D22424A5600D0FB11 /* test.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9840D33C22424A5600D0FB11 /* test.wav */; };
 		98B8F0D521E7579E00387F7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B8F0D421E7579E00387F7C /* AppDelegate.m */; };
 		98B8F0D821E7579E00387F7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B8F0D721E7579E00387F7C /* ViewController.m */; };
 		98B8F0DB21E7579E00387F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B8F0D921E7579E00387F7C /* Main.storyboard */; };
@@ -61,6 +62,7 @@
 		5E59FAB321EB50F700C642AB /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 		608EEDFAAE7F0BCDCAFB01C9 /* libPods-SNFFmpegTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNFFmpegTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D7B595BA07D70D8935794FE /* libPods-SNFFmpegUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNFFmpegUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9840D33C22424A5600D0FB11 /* test.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test.wav; sourceTree = "<group>"; };
 		98B8F0D021E7579E00387F7C /* SNFFmpeg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNFFmpeg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B8F0D321E7579E00387F7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		98B8F0D421E7579E00387F7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				5E59FAB321EB50F700C642AB /* test.mp4 */,
+				9840D33C22424A5600D0FB11 /* test.wav */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9840D33D22424A5600D0FB11 /* test.wav in Resources */,
 				98B8F0E021E757A100387F7C /* LaunchScreen.storyboard in Resources */,
 				98B8F0DD21E757A100387F7C /* Assets.xcassets in Resources */,
 				5E59FAB421EB50F700C642AB /* test.mp4 in Resources */,
