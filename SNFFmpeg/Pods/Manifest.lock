@@ -1,16 +1,20 @@
 PODS:
+  - mobile-ffmpeg-full-gpl (4.2)
   - SNFileManager (0.0.1)
 
 DEPENDENCIES:
+  - mobile-ffmpeg-full-gpl
   - SNFileManager
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - mobile-ffmpeg-full-gpl
     - SNFileManager
 
 SPEC CHECKSUMS:
+  mobile-ffmpeg-full-gpl: b9418e642f87c8ba790500db707b527e38b69812
   SNFileManager: 5afd2c2268e1125fef814d97c65c58b94488bdfe
 
-PODFILE CHECKSUM: e4b99556227e40506c3359e67383942b5fd1dce0
+PODFILE CHECKSUM: a43d38266e8c5870bf90e8ad09d4270f6e24eb83
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.7.0.beta.2

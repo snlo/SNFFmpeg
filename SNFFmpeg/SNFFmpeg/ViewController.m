@@ -8,8 +8,7 @@
 
 #import "ViewController.h"
 
-#import "MobileFFmpeg.h"
-
+#import <mobileffmpeg/mobileffmpeg.h>
 #import "SNFileManager.h"
 
 @interface ViewController ()
