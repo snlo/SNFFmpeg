@@ -8,8 +8,9 @@
 
 #import "ViewController.h"
 
-#import <mobileffmpeg/mobileffmpeg.h>
-#import <mobileffmpeg/fftools_ffmpeg.h>
+#import <Mobileffmpeg/MobileFFmpeg.h>
+#include <mobileffmpeg/fftools_ffmpeg.h>
+
 #import "SNFileManager.h"
 
 @interface ViewController ()
@@ -36,9 +37,50 @@
 
     }
     NSString * AUfromFile = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"wav"];
-    if ([MobileFFmpeg execute:[NSString stringWithFormat:@"-i %@ -c:a libfdk_aac -vbr 5 %@output.m4a",AUfromFile,[SNFileManager parentPathAtPath:AUfromFile]]] < 1) {
-        NSLog(@".m4a转码成功");
+    
+    
+    int rc = [MobileFFmpeg execute:[NSString stringWithFormat:@"-i %@ -c:a libfdk_aac -vbr 5 %@output.m4a",AUfromFile,[SNFileManager parentPathAtPath:AUfromFile]]];
+    
+    if (rc == RETURN_CODE_SUCCESS) {
+        NSLog(@"成功");
+    } else if (rc == RETURN_CODE_CANCEL) {
+        NSLog(@"取消");
+    } else {
+        NSLog(@"失败");
     }
+    
+    
+    
+    [MobileFFmpeg cancel];
+    
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        char *outPic = (char *)[fromFile UTF8String];
+        char *movie = (char *)[fromFile UTF8String];
+        char logo[1024];
+        // 左上
+        sprintf(logo, "movie=%s [logo]; [in][logo] overlay=30:10 [out]", [fromFile UTF8String]);
+        
+        // 左下
+        //sprintf(logo, "movie=%s [logo]; [in][logo] overlay=30:main_h-overlay_h-10 [out]", [BundlePath(@"ff.jpg") UTF8String]);
+        
+        // 右下
+        //sprintf(logo, "movie=%s [logo]; [in][logo] overlay=main_w-overlay_w-10:main_h-overlay_h-10 [out]", [BundlePath(@"ff.jpg") UTF8String]);
+        
+        // 右上
+        //sprintf(logo, "movie=%s [logo]; [in][logo] overlay=main_w-overlay_w-10:10 [out]", [BundlePath(@"ff.jpg") UTF8String]);
+        
+        char* a[] = {
+            "ffmpeg",
+            "-i",
+            movie,
+            "-vf",
+            logo,
+            outPic
+        };
+        ffmpeg_parse_options(sizeof(a)/sizeof(*a), a);
+    });
+    
+    
     
     
     
