@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 #import <Mobileffmpeg/MobileFFmpeg.h>
-#include <mobileffmpeg/fftools_ffmpeg.h>
+#import <mobileffmpeg/fftools_ffmpeg.h>
 
 #import "SNFileManager.h"
 
