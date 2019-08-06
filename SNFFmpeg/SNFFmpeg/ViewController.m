@@ -22,6 +22,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self handleFrameImageFromMP4];
+    return;
 	
 	NSString * fromFile = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"mp4"];
 	NSLog(@"沙盒目录：%@",fromFile);
@@ -86,5 +89,47 @@
     
 }
 
+    
+- (void)handleFrameImageFromMP4 {
+    
+    NSString * fromFile = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"mp4"];
+    
+    NSLog(@"fromFile : %@",fromFile);
+    NSString * toFile = [SNFileManager parentPathAtPath:fromFile];
+    NSLog(@"toFile : %@",toFile);
+    
+//    [MobileFFmpeg execute:[NSString stringWithFormat:@"-y -ss 1 -i %@ -vframes 10 -f image2 -s 100x100 %@img\%03d.png",fromFile, toFile]];
+//
+    
+    MediaInformation * media =  [MobileFFmpeg getMediaInformation:fromFile];
+    
+    NSLog(@" -- - : %@",[media getDuration]);
+    
+//    [MobileFFmpeg execute:[NSString stringWithFormat:@"-y -i %@ -vf \"drawtext=fontfile=CourierNew.ttf:text='helloworld':x=10:y=5:fontsize=12\" %@xxx.mp4",fromFile, toFile]];
+    
+//    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+//        char *from = (char *)[fromFile UTF8String];
+//        char *to = (char *)[toFile UTF8String];
+//
+//        char* a[] = {
+//            "ffmpeg",
+//            "-y",
+//            "-ss",
+//            "1",
+//            "-i",
+//            from,
+//            "-vframes",
+//            "10",
+//            "-f",
+//            "image2",
+//            "-s",
+//            "100x100",
+//            "img%03d.png"
+//        };
+//        ffmpeg_parse_options(sizeof(a)/sizeof(*a), a);
+//    });
+    
+}
+    
 
 @end
