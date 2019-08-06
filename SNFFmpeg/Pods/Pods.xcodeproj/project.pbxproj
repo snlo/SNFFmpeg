@@ -3,394 +3,354 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		9518866687192F3882112448B34BCCC5 /* mobile-ffmpeg-full-gpl */ = {
+		E1991A7BA159E37046EAE05077065FA3 /* mobile-ffmpeg-min */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 3816DE9EE554F9B5FD59FF0CB26591B0 /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-full-gpl" */;
+			buildConfigurationList = 640294D7A0DF7FFDF2B3C2FB85ADF662 /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-min" */;
 			buildPhases = (
 			);
 			dependencies = (
 			);
-			name = "mobile-ffmpeg-full-gpl";
+			name = "mobile-ffmpeg-min";
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0E30C7DC42AD3FEF75DB0A1860F69DA0 /* Pods-SNFFmpegTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0EE594F286179DBC93DEFBCAAE3DD04 /* Pods-SNFFmpegTests-dummy.m */; };
-		4E20F1BC4F5851CED316BE9E46E54DDD /* Pods-SNFFmpeg-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5125E362243A2869E203F6CABAA87D0F /* Pods-SNFFmpeg-dummy.m */; };
-		584A1C6C2044DDA0EE2CAB53406373EA /* SNFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B483BE22F8EB084848C6F329286D4B1 /* SNFileManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5FDE73DF64D163E5D1C087638F172E95 /* SNFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5256797BAC4E4127166DF89506E92D71 /* SNFileManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9D457E197B71454CC8F345107423F98E /* Pods-SNFFmpegUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCB5D16AA4F29B418B331F8189FA093 /* Pods-SNFFmpegUITests-dummy.m */; };
-		A212CAC730BFB71C1976E3920B9943E4 /* SNFileManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D044D734363CB58AB4447D69888354A1 /* SNFileManager-dummy.m */; };
+		00F69255E73082752E9A78B05E3DE9F5 /* SNFileManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C6E38503E047ABCDA37E5CCFC0D208 /* SNFileManager-dummy.m */; };
+		1908F13239198B5948EABBBA366BBF2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		264BE81BC5B168C1F1DC4EE4515C0F24 /* Pods-SNFFmpegTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4D20AEDCF9B327C07B09B573434CC71 /* Pods-SNFFmpegTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A08361B499F3C6B47EDB8E8B5221061 /* Pods-SNFFmpegUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D3C4AA4FA3617E001727B7472EAF0E /* Pods-SNFFmpegUITests-dummy.m */; };
+		4707B7C48CD1891FEBB94BA61C13B003 /* Pods-SNFFmpeg-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED528DC6C0167A9566769153BA3A1AA /* Pods-SNFFmpeg-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51EB2095B2BD8DC388D3941EB2224EDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		8959189314B152E75CA066F1B6556BBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A1116207A4A86603A85FF8B4D5A5E71E /* SNFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1DD140F22D67EE434AB1D5FC9D42EE /* SNFileManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A986018DD5E02EB614F8BAEBF5A06686 /* SNFileManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 850D9B5068FDD6140A1921F289156626 /* SNFileManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2EC64D7D77CA1E65F03FDB05D70B8B7 /* Pods-SNFFmpeg-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE79C8734769B87B7F7ED6161242463C /* Pods-SNFFmpeg-dummy.m */; };
+		C9C33DD87FD2892DFDFC221BE622552E /* Pods-SNFFmpegTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB3D223C1A3FA54ADBD38C5ADAD53ED /* Pods-SNFFmpegTests-dummy.m */; };
+		D397B4C8608A0149D1E5FEDCE9B15740 /* SNFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CD8A1C010F911F295A9F95BC7A909C6D /* SNFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCEBBC983A1FBA0869B95894E627AB41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F269683ED962ADDA1B83DDBEF5A7476E /* Pods-SNFFmpegUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FDC487D32739B173E410D736C13FA83 /* Pods-SNFFmpegUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0EA304DAA0564799ADB2025D977A24F0 /* PBXContainerItemProxy */ = {
+		073470623F60B5B3F8A8E08B484687DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 84B9C3D4EACC805BEAC0FE9E7D69EE26;
 			remoteInfo = SNFileManager;
 		};
-		1B8776F40BEC25CA2C5E1DB5A74FA022 /* PBXContainerItemProxy */ = {
+		0FC0310909A2296BF4D09675CDE56468 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1467B1400BD48C6CDC8FE1B575E93860;
 			remoteInfo = "Pods-SNFFmpeg";
 		};
-		480C198E8536EB17D6F2B81BD8605038 /* PBXContainerItemProxy */ = {
+		2FAE7FA556B00D647B600C98E7A2A691 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1991A7BA159E37046EAE05077065FA3;
+			remoteInfo = "mobile-ffmpeg-min";
+		};
+		FCD3846B118A19AE8B4D3D9734781544 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1467B1400BD48C6CDC8FE1B575E93860;
 			remoteInfo = "Pods-SNFFmpeg";
-		};
-		6EC56A3EBB69D8B8D301E044149D182B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9518866687192F3882112448B34BCCC5;
-			remoteInfo = "mobile-ffmpeg-full-gpl";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04374E8E19BDCBE9B6C83602E5FD68AA /* libaom.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libaom.framework; sourceTree = "<group>"; };
-		0BE2B198EE77991BE2868FB41E7F23D7 /* libuuid.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libuuid.framework; sourceTree = "<group>"; };
-		0BFF6B10A7767F1B8F138C7C90086C9F /* libavutil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavutil.framework; sourceTree = "<group>"; };
-		0ED35D352882D83FB2BEF4BF984D0108 /* Pods-SNFFmpeg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNFFmpeg.release.xcconfig"; sourceTree = "<group>"; };
-		10F40D01F7A85BAEED254413068E5873 /* libavformat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavformat.framework; sourceTree = "<group>"; };
-		125B99565810C2D80C2C0A3D343F007A /* shine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = shine.framework; sourceTree = "<group>"; };
-		14444D27528EFE993F6B3C189C48C8F5 /* libswresample.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libswresample.framework; sourceTree = "<group>"; };
-		14D849599D0D90A05B165F0EE371C5BE /* fontconfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = fontconfig.framework; sourceTree = "<group>"; };
-		1592FE002E81BF8C4520FEFCF40FD131 /* libvorbis.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libvorbis.framework; sourceTree = "<group>"; };
-		16310E09C7BEA0D5665E8C57B35E290A /* libtheora.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libtheora.framework; sourceTree = "<group>"; };
-		1711A12DC3BBE6748D091D0A8C64E483 /* libvpx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libvpx.framework; sourceTree = "<group>"; };
-		1A5DCC84572A2BE9AC6D779C74E4755D /* gmp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = gmp.framework; sourceTree = "<group>"; };
-		1FDD648671C5E99FF39D05D90808BD6E /* libPods-SNFFmpeg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SNFFmpeg.a"; path = "libPods-SNFFmpeg.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		24CD1070E91944B837F1C4FFFB7CA1D4 /* wavpack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = wavpack.framework; sourceTree = "<group>"; };
-		2C532D6FB1486AE5FF4E8C3CD977C2DC /* libswscale.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libswscale.framework; sourceTree = "<group>"; };
-		3B722C07176E5A1B89DF2402CB4D48E2 /* libwebpdemux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libwebpdemux.framework; sourceTree = "<group>"; };
-		3B72CAD39D7639C5E9ECFC99CC997E4E /* libvidstab.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libvidstab.framework; sourceTree = "<group>"; };
-		3C94A11D39D903AA4C2D5F332B41FA17 /* soxr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = soxr.framework; sourceTree = "<group>"; };
-		4028F8DA10A0CBDAF3D663708A1D6BCD /* libSNFileManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSNFileManager.a; path = libSNFileManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		40B8C1BEFBFB327FDBA1EED0AD22CCA8 /* libhogweed.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libhogweed.framework; sourceTree = "<group>"; };
-		42CA02CC6328D93778F27F32FEC8CABB /* Pods-SNFFmpegUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNFFmpegUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		43B2623EDF969F1C7FF3DB8CCE93F8AD /* Pods-SNFFmpegUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNFFmpegUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		4438745AC2054EBCF29454677F129456 /* libpng.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libpng.framework; sourceTree = "<group>"; };
-		445FD2580309CB9016B36E9ABD66F8F7 /* libtheoradec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libtheoradec.framework; sourceTree = "<group>"; };
-		46C1D03862969B2FD7BFE37EB1B673FB /* jpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = jpeg.framework; sourceTree = "<group>"; };
-		4BA9C6560800FA99A085533F2BDFCBEC /* SNFileManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNFileManager-prefix.pch"; sourceTree = "<group>"; };
-		5125E362243A2869E203F6CABAA87D0F /* Pods-SNFFmpeg-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNFFmpeg-dummy.m"; sourceTree = "<group>"; };
-		51D8850A6CA4751CF40C7A4F4251B025 /* twolame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = twolame.framework; sourceTree = "<group>"; };
-		51E9FEFF697EBE0A207FD8424821C985 /* Pods-SNFFmpeg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNFFmpeg.debug.xcconfig"; sourceTree = "<group>"; };
-		52493FD78DC51B42A006D8BF6E6BA771 /* mobile-ffmpeg-full-gpl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mobile-ffmpeg-full-gpl.xcconfig"; sourceTree = "<group>"; };
-		5256797BAC4E4127166DF89506E92D71 /* SNFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SNFileManager.m; path = SNFileManager/SNFileManager/SNFileManager.m; sourceTree = "<group>"; };
-		5B341128635D8D7F4CF29A0D9A6B01FE /* kvazaar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = kvazaar.framework; sourceTree = "<group>"; };
-		5B483BE22F8EB084848C6F329286D4B1 /* SNFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SNFileManager.h; path = SNFileManager/SNFileManager/SNFileManager.h; sourceTree = "<group>"; };
-		5B9EBC9DEABBB3AA575C429A052EEFFE /* freetype.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = freetype.framework; sourceTree = "<group>"; };
-		617A3DB2599A53F40249781AE6C6FD1B /* libwebpdecoder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libwebpdecoder.framework; sourceTree = "<group>"; };
-		6594DA575CECE40257401EEDBC824B72 /* libavfilter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavfilter.framework; sourceTree = "<group>"; };
-		68C94D28E95C78BDF9C20FC059535495 /* libcharset.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libcharset.framework; sourceTree = "<group>"; };
-		6AE5FC13415A853ACECFA3922C74FD80 /* libavdevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavdevice.framework; sourceTree = "<group>"; };
-		6B84C05C22F28FA3CC307A35948A7355 /* snappy.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = snappy.framework; sourceTree = "<group>"; };
-		76164AB8A9C7DB0B08509A40ADBA73A0 /* libopencore-amrnb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "libopencore-amrnb.framework"; sourceTree = "<group>"; };
-		7C0C7252FE85002684BA5869C2785486 /* libvorbisfile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libvorbisfile.framework; sourceTree = "<group>"; };
-		7D2C76C90567A02185EDA9F363541335 /* Pods-SNFFmpegUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNFFmpegUITests.release.xcconfig"; sourceTree = "<group>"; };
-		7D8173203CFF87BDFD9BA0E65DD30648 /* lame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = lame.framework; sourceTree = "<group>"; };
-		7F9785D60284483D9C2BE0EA0F259833 /* libtheoraenc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libtheoraenc.framework; sourceTree = "<group>"; };
-		7FCB5D16AA4F29B418B331F8189FA093 /* Pods-SNFFmpegUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNFFmpegUITests-dummy.m"; sourceTree = "<group>"; };
-		8549F82D876229317223D74B1C396663 /* Pods-SNFFmpegTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNFFmpegTests.debug.xcconfig"; sourceTree = "<group>"; };
-		89EB2A09EBFDC8A36166D328E0FC0AAD /* Pods-SNFFmpegUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNFFmpegUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8A67AA1C18B82921381CF4EB7F69E171 /* libavcodec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavcodec.framework; sourceTree = "<group>"; };
-		8B96E001EECF14506386222A7E03994D /* tiff.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = tiff.framework; sourceTree = "<group>"; };
-		8C898702588E373A12FFD62CAB9AB74F /* Pods-SNFFmpegTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNFFmpegTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8CF8D613C3C22274F066642390C3EE55 /* gnutls.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = gnutls.framework; sourceTree = "<group>"; };
-		93ED4FD64D91480BE18DD6122D53313D /* libvorbisenc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libvorbisenc.framework; sourceTree = "<group>"; };
-		96A8B25BFEE09318DFE6B0B2BCB9AB96 /* libsndfile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libsndfile.framework; sourceTree = "<group>"; };
-		971A26746951CD814665F9380C98438B /* Pods-SNFFmpeg-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNFFmpeg-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D3964CECA3A0BADC0583AC9A2BC07B8 /* libwebp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libwebp.framework; sourceTree = "<group>"; };
+		08C6E38503E047ABCDA37E5CCFC0D208 /* SNFileManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SNFileManager-dummy.m"; sourceTree = "<group>"; };
+		0AA098EDD5B7354EDD3470D81380F79B /* mobileffmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mobileffmpeg.framework; sourceTree = "<group>"; };
+		0CA45827E2E559C237B12538BAC9C1A0 /* Pods-SNFFmpeg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNFFmpeg.debug.xcconfig"; sourceTree = "<group>"; };
+		150F3E499CA22FACD20A9C33A7C1C2C7 /* SNFileManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SNFileManager.framework; path = SNFileManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DC6B4E6A613E58360D7C44820230991 /* libavformat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavformat.framework; sourceTree = "<group>"; };
+		20621E8BC95806606A53B205078FED72 /* Pods-SNFFmpeg.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SNFFmpeg.modulemap"; sourceTree = "<group>"; };
+		206E2665A0BDAD6DA7C374F972DDEA98 /* Pods-SNFFmpegUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNFFmpegUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2229F1A95B867DF1F6105341C0C6FE88 /* SNFileManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNFileManager-prefix.pch"; sourceTree = "<group>"; };
+		2CC50A2F7DF88B2020C77BC05395B04F /* libavfilter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavfilter.framework; sourceTree = "<group>"; };
+		2E1DD140F22D67EE434AB1D5FC9D42EE /* SNFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SNFileManager.m; path = SNFileManager/SNFileManager/SNFileManager.m; sourceTree = "<group>"; };
+		4051636A3A1ACCC7782D08BCD50008E3 /* Pods-SNFFmpegTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNFFmpegTests.release.xcconfig"; sourceTree = "<group>"; };
+		44AEDFDC16E834B7E6BC4CBDE4040CCC /* libswscale.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libswscale.framework; sourceTree = "<group>"; };
+		47FA2EB849FA76559B60FE1F86B72B10 /* Pods-SNFFmpegTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SNFFmpegTests.modulemap"; sourceTree = "<group>"; };
+		4CE4C4EA57B54017DCD8479791F71D40 /* Pods_SNFFmpegUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNFFmpegUITests.framework; path = "Pods-SNFFmpegUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB03E7D17B12919D979D5DACC4523E4 /* Pods-SNFFmpegUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNFFmpegUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DBD7783BB97DAFE230E35AACFCA7E8B /* Pods_SNFFmpegTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNFFmpegTests.framework; path = "Pods-SNFFmpegTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5789945ED6681E20B330309CD8F946B5 /* Pods-SNFFmpegTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNFFmpegTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B5D7E3B7FCEB62E789C5CAF462C5748 /* SNFileManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SNFileManager.xcconfig; sourceTree = "<group>"; };
+		5FC3436DB54B20DAC521E054605002CB /* Pods-SNFFmpegUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNFFmpegUITests-Info.plist"; sourceTree = "<group>"; };
+		5FDC487D32739B173E410D736C13FA83 /* Pods-SNFFmpegUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SNFFmpegUITests-umbrella.h"; sourceTree = "<group>"; };
+		6679375A9CDDC64786CC2276178AC5EE /* Pods-SNFFmpegUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNFFmpegUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6795FD24FED320BA9138A741F643DA4F /* Pods-SNFFmpegUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNFFmpegUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		68A0DE3952BDF108836069066E9CB7BE /* Pods-SNFFmpegTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNFFmpegTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		71B2A6CC8D64B83F9A8062BD8EA8347B /* Pods-SNFFmpeg-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNFFmpeg-Info.plist"; sourceTree = "<group>"; };
+		71D3C4AA4FA3617E001727B7472EAF0E /* Pods-SNFFmpegUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNFFmpegUITests-dummy.m"; sourceTree = "<group>"; };
+		7F85939764335F7D1EA7066A9E11F82E /* SNFileManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SNFileManager-Info.plist"; sourceTree = "<group>"; };
+		802020A359A0831614A15AADECCCDF22 /* Pods-SNFFmpegUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SNFFmpegUITests.modulemap"; sourceTree = "<group>"; };
+		850D9B5068FDD6140A1921F289156626 /* SNFileManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SNFileManager-umbrella.h"; sourceTree = "<group>"; };
+		8ED528DC6C0167A9566769153BA3A1AA /* Pods-SNFFmpeg-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SNFFmpeg-umbrella.h"; sourceTree = "<group>"; };
+		98CD87E1F6166412AB456E1896562DED /* Pods-SNFFmpegTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNFFmpegTests-Info.plist"; sourceTree = "<group>"; };
+		99B24B256C8846D6A5F1B97EFEF3FD35 /* libavutil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavutil.framework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A75ED9D1B481AD09E3A77A5E4AF76E2E /* speex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = speex.framework; sourceTree = "<group>"; };
-		AAE53212955CF5ADA52C378148692BAB /* libPods-SNFFmpegTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SNFFmpegTests.a"; path = "libPods-SNFFmpegTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABD069743B4ED1D0E0BB686A1B82F7C4 /* giflib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = giflib.framework; sourceTree = "<group>"; };
-		AE9FCA3ED3FC294C3962670CE7D0133F /* Pods-SNFFmpegTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNFFmpegTests.release.xcconfig"; sourceTree = "<group>"; };
-		B9024491CB69CD57EF93FE07E3372B2A /* fribidi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = fribidi.framework; sourceTree = "<group>"; };
-		BE8D6ADFCA4E3077A5CEB9F3779E94CE /* opus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opus.framework; sourceTree = "<group>"; };
-		BF20437BEA851DB5628B5EB7412C4D10 /* libilbc.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libilbc.framework; sourceTree = "<group>"; };
-		C01A0EE4D15CBA17A524DC92E5B62B85 /* Pods-SNFFmpegTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNFFmpegTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C2DEBBDBCA245AAA7AF6E4FA4AEBA3D3 /* x264.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = x264.framework; sourceTree = "<group>"; };
-		C98F4986D6226FF95C7DCC1717046C3C /* libxml2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libxml2.framework; sourceTree = "<group>"; };
-		CA1DCD845236341F26DD6010EBD4F796 /* libogg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libogg.framework; sourceTree = "<group>"; };
-		CBE0B37F7E1308352B360DC5872C1DB0 /* Pods-SNFFmpeg-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNFFmpeg-acknowledgements.plist"; sourceTree = "<group>"; };
-		CDCF32AF05409918BE420156F0640786 /* libass.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libass.framework; sourceTree = "<group>"; };
-		D044D734363CB58AB4447D69888354A1 /* SNFileManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SNFileManager-dummy.m"; sourceTree = "<group>"; };
-		D3B984E6A61FCB66A64B8116AA77B8F1 /* expat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = expat.framework; sourceTree = "<group>"; };
-		D5AAB5A767A45AAB8B275B41206F73E8 /* libiconv.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libiconv.framework; sourceTree = "<group>"; };
-		D7A2E207AC841779C39D619230D1DCAE /* xvidcore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = xvidcore.framework; sourceTree = "<group>"; };
-		DD4D209148F7B1AF7A65EB8D1E9E286E /* mobileffmpeg.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = mobileffmpeg.framework; sourceTree = "<group>"; };
-		DE92303351B11F708DFFEB5072D34DBB /* SNFileManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SNFileManager.xcconfig; sourceTree = "<group>"; };
-		E49E23F95E1C498E852E3FBDED107C5E /* libopencore-amrwb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "libopencore-amrwb.framework"; sourceTree = "<group>"; };
-		E58DC548E6917F8C63F960062A4D99F3 /* libnettle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libnettle.framework; sourceTree = "<group>"; };
-		EAA8A9168A79760B4C03998B4D91238A /* x265.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = x265.framework; sourceTree = "<group>"; };
-		ECEE759B1B4214C8A029EB299B3F1668 /* libPods-SNFFmpegUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SNFFmpegUITests.a"; path = "libPods-SNFFmpegUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0EE594F286179DBC93DEFBCAAE3DD04 /* Pods-SNFFmpegTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNFFmpegTests-dummy.m"; sourceTree = "<group>"; };
+		9FB3D223C1A3FA54ADBD38C5ADAD53ED /* Pods-SNFFmpegTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNFFmpegTests-dummy.m"; sourceTree = "<group>"; };
+		A049C957F17F8C79B1FD58713EB4AD00 /* Pods_SNFFmpeg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SNFFmpeg.framework; path = "Pods-SNFFmpeg.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15546FFF47E44D5A21188C1232357CA /* libavdevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavdevice.framework; sourceTree = "<group>"; };
+		AE79C8734769B87B7F7ED6161242463C /* Pods-SNFFmpeg-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SNFFmpeg-dummy.m"; sourceTree = "<group>"; };
+		C2487BD8F00BB33AC98383CF025902FB /* Pods-SNFFmpeg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SNFFmpeg.release.xcconfig"; sourceTree = "<group>"; };
+		C51E2BB42A828746D86D4253F5697302 /* SNFileManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SNFileManager.modulemap; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CD8A1C010F911F295A9F95BC7A909C6D /* SNFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SNFileManager.h; path = SNFileManager/SNFileManager/SNFileManager.h; sourceTree = "<group>"; };
+		CDA4C60CC953910CB7BF1666EC6C0CAE /* Pods-SNFFmpegTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNFFmpegTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDB3430E71593DE56F3A6CEA509D2A7D /* Pods-SNFFmpeg-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SNFFmpeg-frameworks.sh"; sourceTree = "<group>"; };
+		DF0E0CD309B9723B02AA030F5C5936A3 /* Pods-SNFFmpeg-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SNFFmpeg-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E4D20AEDCF9B327C07B09B573434CC71 /* Pods-SNFFmpegTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SNFFmpegTests-umbrella.h"; sourceTree = "<group>"; };
+		E9C0A7901E85C514B2E5EEF1AE76DE07 /* Pods-SNFFmpeg-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SNFFmpeg-acknowledgements.plist"; sourceTree = "<group>"; };
+		F4E640CB6B7CD0AC3C706886B5C2FD92 /* mobile-ffmpeg-min.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "mobile-ffmpeg-min.xcconfig"; sourceTree = "<group>"; };
+		F7020D025495B3BE54BF9BF6559B83AD /* libavcodec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libavcodec.framework; sourceTree = "<group>"; };
+		FDB065C526845CE0E3CBCA15908A722F /* libswresample.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libswresample.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3CA4DF00722FEAA0E55B76990DE89C94 /* Frameworks */ = {
+		4DDFEFB09334F8CEFBE9BBEC1BB4ACC1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1908F13239198B5948EABBBA366BBF2C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78EB107406634555B2CEDE3BFA1E9054 /* Frameworks */ = {
+		7DC7E5685852E3DD9272D54057B38C06 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8959189314B152E75CA066F1B6556BBE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E3767E034186570160B29F625C80AB3 /* Frameworks */ = {
+		7FF16066415A3F162FE4B17C732553F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCEBBC983A1FBA0869B95894E627AB41 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6F54EDD79049319D056464454CED6F7 /* Frameworks */ = {
+		DD48B25CA4707A448FEBF28115A9F4CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51EB2095B2BD8DC388D3941EB2224EDF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0CF88C6E2D459820F852A8ADB9F64301 /* SNFileManager */ = {
+		07B52B0B352156149A4CCA2788995343 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B483BE22F8EB084848C6F329286D4B1 /* SNFileManager.h */,
-				5256797BAC4E4127166DF89506E92D71 /* SNFileManager.m */,
-				6333F612327E1850522C2DF8F92715D7 /* Support Files */,
-			);
-			name = SNFileManager;
-			path = SNFileManager;
-			sourceTree = "<group>";
-		};
-		12FC4C64AD1FBE8BF5666B7A4DDAD454 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D3B984E6A61FCB66A64B8116AA77B8F1 /* expat.framework */,
-				14D849599D0D90A05B165F0EE371C5BE /* fontconfig.framework */,
-				5B9EBC9DEABBB3AA575C429A052EEFFE /* freetype.framework */,
-				B9024491CB69CD57EF93FE07E3372B2A /* fribidi.framework */,
-				ABD069743B4ED1D0E0BB686A1B82F7C4 /* giflib.framework */,
-				1A5DCC84572A2BE9AC6D779C74E4755D /* gmp.framework */,
-				8CF8D613C3C22274F066642390C3EE55 /* gnutls.framework */,
-				46C1D03862969B2FD7BFE37EB1B673FB /* jpeg.framework */,
-				5B341128635D8D7F4CF29A0D9A6B01FE /* kvazaar.framework */,
-				7D8173203CFF87BDFD9BA0E65DD30648 /* lame.framework */,
-				04374E8E19BDCBE9B6C83602E5FD68AA /* libaom.framework */,
-				CDCF32AF05409918BE420156F0640786 /* libass.framework */,
-				8A67AA1C18B82921381CF4EB7F69E171 /* libavcodec.framework */,
-				6AE5FC13415A853ACECFA3922C74FD80 /* libavdevice.framework */,
-				6594DA575CECE40257401EEDBC824B72 /* libavfilter.framework */,
-				10F40D01F7A85BAEED254413068E5873 /* libavformat.framework */,
-				0BFF6B10A7767F1B8F138C7C90086C9F /* libavutil.framework */,
-				68C94D28E95C78BDF9C20FC059535495 /* libcharset.framework */,
-				40B8C1BEFBFB327FDBA1EED0AD22CCA8 /* libhogweed.framework */,
-				D5AAB5A767A45AAB8B275B41206F73E8 /* libiconv.framework */,
-				BF20437BEA851DB5628B5EB7412C4D10 /* libilbc.framework */,
-				E58DC548E6917F8C63F960062A4D99F3 /* libnettle.framework */,
-				CA1DCD845236341F26DD6010EBD4F796 /* libogg.framework */,
-				76164AB8A9C7DB0B08509A40ADBA73A0 /* libopencore-amrnb.framework */,
-				E49E23F95E1C498E852E3FBDED107C5E /* libopencore-amrwb.framework */,
-				4438745AC2054EBCF29454677F129456 /* libpng.framework */,
-				96A8B25BFEE09318DFE6B0B2BCB9AB96 /* libsndfile.framework */,
-				14444D27528EFE993F6B3C189C48C8F5 /* libswresample.framework */,
-				2C532D6FB1486AE5FF4E8C3CD977C2DC /* libswscale.framework */,
-				16310E09C7BEA0D5665E8C57B35E290A /* libtheora.framework */,
-				445FD2580309CB9016B36E9ABD66F8F7 /* libtheoradec.framework */,
-				7F9785D60284483D9C2BE0EA0F259833 /* libtheoraenc.framework */,
-				0BE2B198EE77991BE2868FB41E7F23D7 /* libuuid.framework */,
-				3B72CAD39D7639C5E9ECFC99CC997E4E /* libvidstab.framework */,
-				1592FE002E81BF8C4520FEFCF40FD131 /* libvorbis.framework */,
-				93ED4FD64D91480BE18DD6122D53313D /* libvorbisenc.framework */,
-				7C0C7252FE85002684BA5869C2785486 /* libvorbisfile.framework */,
-				1711A12DC3BBE6748D091D0A8C64E483 /* libvpx.framework */,
-				9D3964CECA3A0BADC0583AC9A2BC07B8 /* libwebp.framework */,
-				617A3DB2599A53F40249781AE6C6FD1B /* libwebpdecoder.framework */,
-				3B722C07176E5A1B89DF2402CB4D48E2 /* libwebpdemux.framework */,
-				C98F4986D6226FF95C7DCC1717046C3C /* libxml2.framework */,
-				DD4D209148F7B1AF7A65EB8D1E9E286E /* mobileffmpeg.framework */,
-				BE8D6ADFCA4E3077A5CEB9F3779E94CE /* opus.framework */,
-				125B99565810C2D80C2C0A3D343F007A /* shine.framework */,
-				6B84C05C22F28FA3CC307A35948A7355 /* snappy.framework */,
-				3C94A11D39D903AA4C2D5F332B41FA17 /* soxr.framework */,
-				A75ED9D1B481AD09E3A77A5E4AF76E2E /* speex.framework */,
-				8B96E001EECF14506386222A7E03994D /* tiff.framework */,
-				51D8850A6CA4751CF40C7A4F4251B025 /* twolame.framework */,
-				24CD1070E91944B837F1C4FFFB7CA1D4 /* wavpack.framework */,
-				C2DEBBDBCA245AAA7AF6E4FA4AEBA3D3 /* x264.framework */,
-				EAA8A9168A79760B4C03998B4D91238A /* x265.framework */,
-				D7A2E207AC841779C39D619230D1DCAE /* xvidcore.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2E44FAF3D70EDB8312709000572374D5 /* Pods-SNFFmpegTests */ = {
-			isa = PBXGroup;
-			children = (
-				8C898702588E373A12FFD62CAB9AB74F /* Pods-SNFFmpegTests-acknowledgements.markdown */,
-				C01A0EE4D15CBA17A524DC92E5B62B85 /* Pods-SNFFmpegTests-acknowledgements.plist */,
-				F0EE594F286179DBC93DEFBCAAE3DD04 /* Pods-SNFFmpegTests-dummy.m */,
-				8549F82D876229317223D74B1C396663 /* Pods-SNFFmpegTests.debug.xcconfig */,
-				AE9FCA3ED3FC294C3962670CE7D0133F /* Pods-SNFFmpegTests.release.xcconfig */,
-			);
-			name = "Pods-SNFFmpegTests";
-			path = "Target Support Files/Pods-SNFFmpegTests";
-			sourceTree = "<group>";
-		};
-		35713D0E31CF0560B99C7E4D5873790E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1FDD648671C5E99FF39D05D90808BD6E /* libPods-SNFFmpeg.a */,
-				AAE53212955CF5ADA52C378148692BAB /* libPods-SNFFmpegTests.a */,
-				ECEE759B1B4214C8A029EB299B3F1668 /* libPods-SNFFmpegUITests.a */,
-				4028F8DA10A0CBDAF3D663708A1D6BCD /* libSNFileManager.a */,
+				A049C957F17F8C79B1FD58713EB4AD00 /* Pods_SNFFmpeg.framework */,
+				4DBD7783BB97DAFE230E35AACFCA7E8B /* Pods_SNFFmpegTests.framework */,
+				4CE4C4EA57B54017DCD8479791F71D40 /* Pods_SNFFmpegUITests.framework */,
+				150F3E499CA22FACD20A9C33A7C1C2C7 /* SNFileManager.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6333F612327E1850522C2DF8F92715D7 /* Support Files */ = {
+		221C7B8281F709FB36376F6759B178BA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DE92303351B11F708DFFEB5072D34DBB /* SNFileManager.xcconfig */,
-				D044D734363CB58AB4447D69888354A1 /* SNFileManager-dummy.m */,
-				4BA9C6560800FA99A085533F2BDFCBEC /* SNFileManager-prefix.pch */,
+				91A94E8888B346D6A46C836C2233D270 /* mobile-ffmpeg-min */,
+				D247B912F5224F237ADD9A384F770D71 /* SNFileManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6849EB2E41591773B23DCA3278A46034 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCC99FE800EC12A6223B03A101459B62 /* Pods-SNFFmpeg */,
+				C27B466B15613D9744DB042D1FC7EACA /* Pods-SNFFmpegTests */,
+				BBA834096E4029C19423B3717E0AF662 /* Pods-SNFFmpegUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8F3E32DE119A408EB9183A7F427D5675 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4E640CB6B7CD0AC3C706886B5C2FD92 /* mobile-ffmpeg-min.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SNFileManager";
+			path = "../Target Support Files/mobile-ffmpeg-min";
 			sourceTree = "<group>";
 		};
-		6947EA16F7559178DDC2851A8D57F6FA /* mobile-ffmpeg-full-gpl */ = {
+		91A94E8888B346D6A46C836C2233D270 /* mobile-ffmpeg-min */ = {
 			isa = PBXGroup;
 			children = (
-				12FC4C64AD1FBE8BF5666B7A4DDAD454 /* Frameworks */,
-				B0DC4928E977EB65EBFCAF49028E9C0E /* Support Files */,
+				DF3E09AA2BE081FAEA7B02D5ECCA9CF5 /* Frameworks */,
+				8F3E32DE119A408EB9183A7F427D5675 /* Support Files */,
 			);
-			name = "mobile-ffmpeg-full-gpl";
-			path = "mobile-ffmpeg-full-gpl";
+			name = "mobile-ffmpeg-min";
+			path = "mobile-ffmpeg-min";
 			sourceTree = "<group>";
 		};
-		AEE326AA19C992DD3C7726052810F57D /* Pods-SNFFmpegUITests */ = {
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				42CA02CC6328D93778F27F32FEC8CABB /* Pods-SNFFmpegUITests-acknowledgements.markdown */,
-				89EB2A09EBFDC8A36166D328E0FC0AAD /* Pods-SNFFmpegUITests-acknowledgements.plist */,
-				7FCB5D16AA4F29B418B331F8189FA093 /* Pods-SNFFmpegUITests-dummy.m */,
-				43B2623EDF969F1C7FF3DB8CCE93F8AD /* Pods-SNFFmpegUITests.debug.xcconfig */,
-				7D2C76C90567A02185EDA9F363541335 /* Pods-SNFFmpegUITests.release.xcconfig */,
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		BBA834096E4029C19423B3717E0AF662 /* Pods-SNFFmpegUITests */ = {
+			isa = PBXGroup;
+			children = (
+				802020A359A0831614A15AADECCCDF22 /* Pods-SNFFmpegUITests.modulemap */,
+				4DB03E7D17B12919D979D5DACC4523E4 /* Pods-SNFFmpegUITests-acknowledgements.markdown */,
+				206E2665A0BDAD6DA7C374F972DDEA98 /* Pods-SNFFmpegUITests-acknowledgements.plist */,
+				71D3C4AA4FA3617E001727B7472EAF0E /* Pods-SNFFmpegUITests-dummy.m */,
+				5FC3436DB54B20DAC521E054605002CB /* Pods-SNFFmpegUITests-Info.plist */,
+				5FDC487D32739B173E410D736C13FA83 /* Pods-SNFFmpegUITests-umbrella.h */,
+				6795FD24FED320BA9138A741F643DA4F /* Pods-SNFFmpegUITests.debug.xcconfig */,
+				6679375A9CDDC64786CC2276178AC5EE /* Pods-SNFFmpegUITests.release.xcconfig */,
 			);
 			name = "Pods-SNFFmpegUITests";
 			path = "Target Support Files/Pods-SNFFmpegUITests";
 			sourceTree = "<group>";
 		};
-		B0DC4928E977EB65EBFCAF49028E9C0E /* Support Files */ = {
+		C27B466B15613D9744DB042D1FC7EACA /* Pods-SNFFmpegTests */ = {
 			isa = PBXGroup;
 			children = (
-				52493FD78DC51B42A006D8BF6E6BA771 /* mobile-ffmpeg-full-gpl.xcconfig */,
+				47FA2EB849FA76559B60FE1F86B72B10 /* Pods-SNFFmpegTests.modulemap */,
+				CDA4C60CC953910CB7BF1666EC6C0CAE /* Pods-SNFFmpegTests-acknowledgements.markdown */,
+				68A0DE3952BDF108836069066E9CB7BE /* Pods-SNFFmpegTests-acknowledgements.plist */,
+				9FB3D223C1A3FA54ADBD38C5ADAD53ED /* Pods-SNFFmpegTests-dummy.m */,
+				98CD87E1F6166412AB456E1896562DED /* Pods-SNFFmpegTests-Info.plist */,
+				E4D20AEDCF9B327C07B09B573434CC71 /* Pods-SNFFmpegTests-umbrella.h */,
+				5789945ED6681E20B330309CD8F946B5 /* Pods-SNFFmpegTests.debug.xcconfig */,
+				4051636A3A1ACCC7782D08BCD50008E3 /* Pods-SNFFmpegTests.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/mobile-ffmpeg-full-gpl";
-			sourceTree = "<group>";
-		};
-		BCB77CEF32D46DC6679C74FAF3C176BC /* Pods-SNFFmpeg */ = {
-			isa = PBXGroup;
-			children = (
-				971A26746951CD814665F9380C98438B /* Pods-SNFFmpeg-acknowledgements.markdown */,
-				CBE0B37F7E1308352B360DC5872C1DB0 /* Pods-SNFFmpeg-acknowledgements.plist */,
-				5125E362243A2869E203F6CABAA87D0F /* Pods-SNFFmpeg-dummy.m */,
-				51E9FEFF697EBE0A207FD8424821C985 /* Pods-SNFFmpeg.debug.xcconfig */,
-				0ED35D352882D83FB2BEF4BF984D0108 /* Pods-SNFFmpeg.release.xcconfig */,
-			);
-			name = "Pods-SNFFmpeg";
-			path = "Target Support Files/Pods-SNFFmpeg";
-			sourceTree = "<group>";
-		};
-		CD3B1C1F8056A1546203A7CAD26BC17D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BCB77CEF32D46DC6679C74FAF3C176BC /* Pods-SNFFmpeg */,
-				2E44FAF3D70EDB8312709000572374D5 /* Pods-SNFFmpegTests */,
-				AEE326AA19C992DD3C7726052810F57D /* Pods-SNFFmpegUITests */,
-			);
-			name = "Targets Support Files";
+			name = "Pods-SNFFmpegTests";
+			path = "Target Support Files/Pods-SNFFmpegTests";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				E754E6355523675935C65F0003E40EE0 /* Pods */,
-				35713D0E31CF0560B99C7E4D5873790E /* Products */,
-				CD3B1C1F8056A1546203A7CAD26BC17D /* Targets Support Files */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				221C7B8281F709FB36376F6759B178BA /* Pods */,
+				07B52B0B352156149A4CCA2788995343 /* Products */,
+				6849EB2E41591773B23DCA3278A46034 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E754E6355523675935C65F0003E40EE0 /* Pods */ = {
+		D247B912F5224F237ADD9A384F770D71 /* SNFileManager */ = {
 			isa = PBXGroup;
 			children = (
-				6947EA16F7559178DDC2851A8D57F6FA /* mobile-ffmpeg-full-gpl */,
-				0CF88C6E2D459820F852A8ADB9F64301 /* SNFileManager */,
+				CD8A1C010F911F295A9F95BC7A909C6D /* SNFileManager.h */,
+				2E1DD140F22D67EE434AB1D5FC9D42EE /* SNFileManager.m */,
+				EA716272F3F25BA381AE978F6CE33178 /* Support Files */,
 			);
-			name = Pods;
+			name = SNFileManager;
+			path = SNFileManager;
+			sourceTree = "<group>";
+		};
+		DF3E09AA2BE081FAEA7B02D5ECCA9CF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7020D025495B3BE54BF9BF6559B83AD /* libavcodec.framework */,
+				A15546FFF47E44D5A21188C1232357CA /* libavdevice.framework */,
+				2CC50A2F7DF88B2020C77BC05395B04F /* libavfilter.framework */,
+				1DC6B4E6A613E58360D7C44820230991 /* libavformat.framework */,
+				99B24B256C8846D6A5F1B97EFEF3FD35 /* libavutil.framework */,
+				FDB065C526845CE0E3CBCA15908A722F /* libswresample.framework */,
+				44AEDFDC16E834B7E6BC4CBDE4040CCC /* libswscale.framework */,
+				0AA098EDD5B7354EDD3470D81380F79B /* mobileffmpeg.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA716272F3F25BA381AE978F6CE33178 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C51E2BB42A828746D86D4253F5697302 /* SNFileManager.modulemap */,
+				5B5D7E3B7FCEB62E789C5CAF462C5748 /* SNFileManager.xcconfig */,
+				08C6E38503E047ABCDA37E5CCFC0D208 /* SNFileManager-dummy.m */,
+				7F85939764335F7D1EA7066A9E11F82E /* SNFileManager-Info.plist */,
+				2229F1A95B867DF1F6105341C0C6FE88 /* SNFileManager-prefix.pch */,
+				850D9B5068FDD6140A1921F289156626 /* SNFileManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SNFileManager";
+			sourceTree = "<group>";
+		};
+		FCC99FE800EC12A6223B03A101459B62 /* Pods-SNFFmpeg */ = {
+			isa = PBXGroup;
+			children = (
+				20621E8BC95806606A53B205078FED72 /* Pods-SNFFmpeg.modulemap */,
+				DF0E0CD309B9723B02AA030F5C5936A3 /* Pods-SNFFmpeg-acknowledgements.markdown */,
+				E9C0A7901E85C514B2E5EEF1AE76DE07 /* Pods-SNFFmpeg-acknowledgements.plist */,
+				AE79C8734769B87B7F7ED6161242463C /* Pods-SNFFmpeg-dummy.m */,
+				CDB3430E71593DE56F3A6CEA509D2A7D /* Pods-SNFFmpeg-frameworks.sh */,
+				71B2A6CC8D64B83F9A8062BD8EA8347B /* Pods-SNFFmpeg-Info.plist */,
+				8ED528DC6C0167A9566769153BA3A1AA /* Pods-SNFFmpeg-umbrella.h */,
+				0CA45827E2E559C237B12538BAC9C1A0 /* Pods-SNFFmpeg.debug.xcconfig */,
+				C2487BD8F00BB33AC98383CF025902FB /* Pods-SNFFmpeg.release.xcconfig */,
+			);
+			name = "Pods-SNFFmpeg";
+			path = "Target Support Files/Pods-SNFFmpeg";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		97B1684CCA889F365C899088FFB168BC /* Headers */ = {
+		10B693265E4C1B736F41179A3EE1848F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F269683ED962ADDA1B83DDBEF5A7476E /* Pods-SNFFmpegUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98DA42FBB2852C338824E16336B81C68 /* Headers */ = {
+		9C2E2FF84779AF26ACA58C2E30A455F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				264BE81BC5B168C1F1DC4EE4515C0F24 /* Pods-SNFFmpegTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF33A58283ECB850B44B25CBBA66A52D /* Headers */ = {
+		A1BB4BBB14A45C28521A6B63155CBBC2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				584A1C6C2044DDA0EE2CAB53406373EA /* SNFileManager.h in Headers */,
+				A986018DD5E02EB614F8BAEBF5A06686 /* SNFileManager-umbrella.h in Headers */,
+				D397B4C8608A0149D1E5FEDCE9B15740 /* SNFileManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FED84BB4254CB18EF1C2F04E9CD5E305 /* Headers */ = {
+		DEA723417B56AFF0D62CB5AB00EB1EA9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4707B7C48CD1891FEBB94BA61C13B003 /* Pods-SNFFmpeg-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,48 +359,51 @@
 /* Begin PBXNativeTarget section */
 		1467B1400BD48C6CDC8FE1B575E93860 /* Pods-SNFFmpeg */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8DDA251118AD91AD5ACC083EDE2BB259 /* Build configuration list for PBXNativeTarget "Pods-SNFFmpeg" */;
+			buildConfigurationList = E0D415FCA4B77481FC6D9ED433C6B8CB /* Build configuration list for PBXNativeTarget "Pods-SNFFmpeg" */;
 			buildPhases = (
-				97B1684CCA889F365C899088FFB168BC /* Headers */,
-				EAF75C7E73AFAADE070F028989A126CC /* Sources */,
-				78EB107406634555B2CEDE3BFA1E9054 /* Frameworks */,
+				DEA723417B56AFF0D62CB5AB00EB1EA9 /* Headers */,
+				2D0F337E3C163E0B76CF32E7490FEC55 /* Sources */,
+				DD48B25CA4707A448FEBF28115A9F4CD /* Frameworks */,
+				2CE7A95233B8AC53D5EEE53CAD1AD81D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EC9AD8B32A0D47C7B94A5673FFCB9F14 /* PBXTargetDependency */,
-				19FEDB2512C5DDFF4F68AC69CA741203 /* PBXTargetDependency */,
+				1B0DF18034CA3808975069A289BF184F /* PBXTargetDependency */,
+				823CADE7F1EB35E3978494850CDE13FF /* PBXTargetDependency */,
 			);
 			name = "Pods-SNFFmpeg";
 			productName = "Pods-SNFFmpeg";
-			productReference = 1FDD648671C5E99FF39D05D90808BD6E /* libPods-SNFFmpeg.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = A049C957F17F8C79B1FD58713EB4AD00 /* Pods_SNFFmpeg.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		2C0C6BCBD8AABA435B143B465176787F /* Pods-SNFFmpegUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F5001391A2A35E558F8CD0CA5BE3C4C7 /* Build configuration list for PBXNativeTarget "Pods-SNFFmpegUITests" */;
+			buildConfigurationList = EA423A8A9A369EF5021C905261576A90 /* Build configuration list for PBXNativeTarget "Pods-SNFFmpegUITests" */;
 			buildPhases = (
-				98DA42FBB2852C338824E16336B81C68 /* Headers */,
-				7E9BA39E638A71ECAEA269FCE3A65936 /* Sources */,
-				3CA4DF00722FEAA0E55B76990DE89C94 /* Frameworks */,
+				10B693265E4C1B736F41179A3EE1848F /* Headers */,
+				43AF74EA272D950F682A051317A0FB48 /* Sources */,
+				7FF16066415A3F162FE4B17C732553F2 /* Frameworks */,
+				65D27BA676A8B096EA0F9D647711478D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EE211CF3E67E6C9E6056405D154E6DBD /* PBXTargetDependency */,
+				74D902B536667FFD15CB1BA911EA23C3 /* PBXTargetDependency */,
 			);
 			name = "Pods-SNFFmpegUITests";
 			productName = "Pods-SNFFmpegUITests";
-			productReference = ECEE759B1B4214C8A029EB299B3F1668 /* libPods-SNFFmpegUITests.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 4CE4C4EA57B54017DCD8479791F71D40 /* Pods_SNFFmpegUITests.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		84B9C3D4EACC805BEAC0FE9E7D69EE26 /* SNFileManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8A5F4CBF417E197CED7100F41553DFB6 /* Build configuration list for PBXNativeTarget "SNFileManager" */;
+			buildConfigurationList = 66DFC7920028A7092B9579E026DF9390 /* Build configuration list for PBXNativeTarget "SNFileManager" */;
 			buildPhases = (
-				EF33A58283ECB850B44B25CBBA66A52D /* Headers */,
-				B306F2A1BBCB699D4222CEB21149F9F6 /* Sources */,
-				E6F54EDD79049319D056464454CED6F7 /* Frameworks */,
+				A1BB4BBB14A45C28521A6B63155CBBC2 /* Headers */,
+				F1C94824DBF6D121436BCA5B88B65713 /* Sources */,
+				7DC7E5685852E3DD9272D54057B38C06 /* Frameworks */,
+				6C246CA5AC29C77F5454583AAC41DA1D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -448,26 +411,27 @@
 			);
 			name = SNFileManager;
 			productName = SNFileManager;
-			productReference = 4028F8DA10A0CBDAF3D663708A1D6BCD /* libSNFileManager.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 150F3E499CA22FACD20A9C33A7C1C2C7 /* SNFileManager.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		F74FE76875A38982DD513C1001E030BA /* Pods-SNFFmpegTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA7CDE0AA4F8CA1F27D93F7D6A6CA0F1 /* Build configuration list for PBXNativeTarget "Pods-SNFFmpegTests" */;
+			buildConfigurationList = B4D98AD8772C94EE6311F5DD1253FBC0 /* Build configuration list for PBXNativeTarget "Pods-SNFFmpegTests" */;
 			buildPhases = (
-				FED84BB4254CB18EF1C2F04E9CD5E305 /* Headers */,
-				57E1E733090933D1CCCEDAF153C29873 /* Sources */,
-				8E3767E034186570160B29F625C80AB3 /* Frameworks */,
+				9C2E2FF84779AF26ACA58C2E30A455F4 /* Headers */,
+				FC94504162FFFA06CD6E1B2B774FCBDB /* Sources */,
+				4DDFEFB09334F8CEFBE9BBEC1BB4ACC1 /* Frameworks */,
+				6627D4872824E391CB984CD82EFA85E8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				600C001FA60A62629B80F773756AE34B /* PBXTargetDependency */,
+				17AB2831C41A58D4CDEF83D517EB457A /* PBXTargetDependency */,
 			);
 			name = "Pods-SNFFmpegTests";
 			productName = "Pods-SNFFmpegTests";
-			productReference = AAE53212955CF5ADA52C378148692BAB /* libPods-SNFFmpegTests.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 4DBD7783BB97DAFE230E35AACFCA7E8B /* Pods_SNFFmpegTests.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -479,18 +443,18 @@
 				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 35713D0E31CF0560B99C7E4D5873790E /* Products */;
+			productRefGroup = 07B52B0B352156149A4CCA2788995343 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9518866687192F3882112448B34BCCC5 /* mobile-ffmpeg-full-gpl */,
+				E1991A7BA159E37046EAE05077065FA3 /* mobile-ffmpeg-min */,
 				1467B1400BD48C6CDC8FE1B575E93860 /* Pods-SNFFmpeg */,
 				F74FE76875A38982DD513C1001E030BA /* Pods-SNFFmpegTests */,
 				2C0C6BCBD8AABA435B143B465176787F /* Pods-SNFFmpegUITests */,
@@ -499,113 +463,104 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		2CE7A95233B8AC53D5EEE53CAD1AD81D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D27BA676A8B096EA0F9D647711478D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6627D4872824E391CB984CD82EFA85E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C246CA5AC29C77F5454583AAC41DA1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		57E1E733090933D1CCCEDAF153C29873 /* Sources */ = {
+		2D0F337E3C163E0B76CF32E7490FEC55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E30C7DC42AD3FEF75DB0A1860F69DA0 /* Pods-SNFFmpegTests-dummy.m in Sources */,
+				C2EC64D7D77CA1E65F03FDB05D70B8B7 /* Pods-SNFFmpeg-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E9BA39E638A71ECAEA269FCE3A65936 /* Sources */ = {
+		43AF74EA272D950F682A051317A0FB48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D457E197B71454CC8F345107423F98E /* Pods-SNFFmpegUITests-dummy.m in Sources */,
+				2A08361B499F3C6B47EDB8E8B5221061 /* Pods-SNFFmpegUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B306F2A1BBCB699D4222CEB21149F9F6 /* Sources */ = {
+		F1C94824DBF6D121436BCA5B88B65713 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A212CAC730BFB71C1976E3920B9943E4 /* SNFileManager-dummy.m in Sources */,
-				5FDE73DF64D163E5D1C087638F172E95 /* SNFileManager.m in Sources */,
+				00F69255E73082752E9A78B05E3DE9F5 /* SNFileManager-dummy.m in Sources */,
+				A1116207A4A86603A85FF8B4D5A5E71E /* SNFileManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAF75C7E73AFAADE070F028989A126CC /* Sources */ = {
+		FC94504162FFFA06CD6E1B2B774FCBDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E20F1BC4F5851CED316BE9E46E54DDD /* Pods-SNFFmpeg-dummy.m in Sources */,
+				C9C33DD87FD2892DFDFC221BE622552E /* Pods-SNFFmpegTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		19FEDB2512C5DDFF4F68AC69CA741203 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "mobile-ffmpeg-full-gpl";
-			target = 9518866687192F3882112448B34BCCC5 /* mobile-ffmpeg-full-gpl */;
-			targetProxy = 6EC56A3EBB69D8B8D301E044149D182B /* PBXContainerItemProxy */;
-		};
-		600C001FA60A62629B80F773756AE34B /* PBXTargetDependency */ = {
+		17AB2831C41A58D4CDEF83D517EB457A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SNFFmpeg";
 			target = 1467B1400BD48C6CDC8FE1B575E93860 /* Pods-SNFFmpeg */;
-			targetProxy = 1B8776F40BEC25CA2C5E1DB5A74FA022 /* PBXContainerItemProxy */;
+			targetProxy = FCD3846B118A19AE8B4D3D9734781544 /* PBXContainerItemProxy */;
 		};
-		EC9AD8B32A0D47C7B94A5673FFCB9F14 /* PBXTargetDependency */ = {
+		1B0DF18034CA3808975069A289BF184F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SNFileManager;
 			target = 84B9C3D4EACC805BEAC0FE9E7D69EE26 /* SNFileManager */;
-			targetProxy = 0EA304DAA0564799ADB2025D977A24F0 /* PBXContainerItemProxy */;
+			targetProxy = 073470623F60B5B3F8A8E08B484687DA /* PBXContainerItemProxy */;
 		};
-		EE211CF3E67E6C9E6056405D154E6DBD /* PBXTargetDependency */ = {
+		74D902B536667FFD15CB1BA911EA23C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-SNFFmpeg";
 			target = 1467B1400BD48C6CDC8FE1B575E93860 /* Pods-SNFFmpeg */;
-			targetProxy = 480C198E8536EB17D6F2B81BD8605038 /* PBXContainerItemProxy */;
+			targetProxy = 0FC0310909A2296BF4D09675CDE56468 /* PBXContainerItemProxy */;
+		};
+		823CADE7F1EB35E3978494850CDE13FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mobile-ffmpeg-min";
+			target = E1991A7BA159E37046EAE05077065FA3 /* mobile-ffmpeg-min */;
+			targetProxy = 2FAE7FA556B00D647B600C98E7A2A691 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A3F4B484594371A1AD18774461ED97D /* Release */ = {
+		1FADC6226286ECF749C4A1004BD5D4F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE9FCA3ED3FC294C3962670CE7D0133F /* Pods-SNFFmpegTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		1F8B36111E80F3BDEF962D86BF256783 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52493FD78DC51B42A006D8BF6E6BA771 /* mobile-ffmpeg-full-gpl.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		246BE14C621748B9A54A21CAABC65533 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52493FD78DC51B42A006D8BF6E6BA771 /* mobile-ffmpeg-full-gpl.xcconfig */;
+			baseConfigurationReference = F4E640CB6B7CD0AC3C706886B5C2FD92 /* mobile-ffmpeg-min.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -619,121 +574,134 @@
 			};
 			name = Debug;
 		};
-		2F29680408F8FE71DE05AB7DA5EDE25A /* Debug */ = {
+		2F210C43567442B9F0A4BEA97BCF27A6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51E9FEFF697EBE0A207FD8424821C985 /* Pods-SNFFmpeg.debug.xcconfig */;
+			baseConfigurationReference = C2487BD8F00BB33AC98383CF025902FB /* Pods-SNFFmpeg.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SNFFmpeg/Pods-SNFFmpeg-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SNFFmpeg/Pods-SNFFmpeg.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		42320534CF9DE61092CDF0A5352A61B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE92303351B11F708DFFEB5072D34DBB /* SNFileManager.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SNFileManager/SNFileManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SNFileManager;
-				PRODUCT_NAME = SNFileManager;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		45FA161EBD20F15009AB1A60A0B2B7E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7D2C76C90567A02185EDA9F363541335 /* Pods-SNFFmpegUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		6EC4551A1B4FBEB1BC5E73D4D4450E09 /* Debug */ = {
+		54F145EAA1C79F350871B9F051A80173 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE92303351B11F708DFFEB5072D34DBB /* SNFileManager.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/SNFileManager/SNFileManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = SNFileManager;
-				PRODUCT_NAME = SNFileManager;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		832DA718048D58DD7ECED644325CBE11 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8549F82D876229317223D74B1C396663 /* Pods-SNFFmpegTests.debug.xcconfig */;
+			baseConfigurationReference = 5789945ED6681E20B330309CD8F946B5 /* Pods-SNFFmpegTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SNFFmpegTests/Pods-SNFFmpegTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SNFFmpegTests/Pods-SNFFmpegTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		92903D0BE001AEC5EB4391CD80E81CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5D7E3B7FCEB62E789C5CAF462C5748 /* SNFileManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SNFileManager/SNFileManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SNFileManager/SNFileManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SNFileManager/SNFileManager.modulemap";
+				PRODUCT_MODULE_NAME = SNFileManager;
+				PRODUCT_NAME = SNFileManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C46FCBFD5A7F5BB9DBA1ED4FF2CC23F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4E640CB6B7CD0AC3C706886B5C2FD92 /* mobile-ffmpeg-min.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		A105C1752A0A49B30ED621B71E226CDB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -795,28 +763,43 @@
 			};
 			name = Release;
 		};
-		AFB37BE5DB333C51B07C7CA26E06F50C /* Release */ = {
+		B97917BE42403F90CEE0345F9E7E562B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0ED35D352882D83FB2BEF4BF984D0108 /* Pods-SNFFmpeg.release.xcconfig */;
+			baseConfigurationReference = 0CA45827E2E559C237B12538BAC9C1A0 /* Pods-SNFFmpeg.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SNFFmpeg/Pods-SNFFmpeg-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SNFFmpeg/Pods-SNFFmpeg.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		C1391485F05B41BD35738A433056B7FA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -882,40 +865,161 @@
 			};
 			name = Debug;
 		};
-		EAE49673157E7B216761F49842E8DDE5 /* Debug */ = {
+		C633BF91F761C6949ED44F34F0A7C1EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 43B2623EDF969F1C7FF3DB8CCE93F8AD /* Pods-SNFFmpegUITests.debug.xcconfig */;
+			baseConfigurationReference = 4051636A3A1ACCC7782D08BCD50008E3 /* Pods-SNFFmpegTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SNFFmpegTests/Pods-SNFFmpegTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SNFFmpegTests/Pods-SNFFmpegTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CAC854648963BF7AA195374DAFB90A12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B5D7E3B7FCEB62E789C5CAF462C5748 /* SNFileManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SNFileManager/SNFileManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SNFileManager/SNFileManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SNFileManager/SNFileManager.modulemap";
+				PRODUCT_MODULE_NAME = SNFileManager;
+				PRODUCT_NAME = SNFileManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D8C3ACC0B361BE9322FFED2F51432287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6679375A9CDDC64786CC2276178AC5EE /* Pods-SNFFmpegUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SNFFmpegUITests/Pods-SNFFmpegUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SNFFmpegUITests/Pods-SNFFmpegUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC047C920265C379B4A59D555F2E2C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6795FD24FED320BA9138A741F643DA4F /* Pods-SNFFmpegUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SNFFmpegUITests/Pods-SNFFmpegUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SNFFmpegUITests/Pods-SNFFmpegUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3816DE9EE554F9B5FD59FF0CB26591B0 /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-full-gpl" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				246BE14C621748B9A54A21CAABC65533 /* Debug */,
-				1F8B36111E80F3BDEF962D86BF256783 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -925,38 +1029,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8A5F4CBF417E197CED7100F41553DFB6 /* Build configuration list for PBXNativeTarget "SNFileManager" */ = {
+		640294D7A0DF7FFDF2B3C2FB85ADF662 /* Build configuration list for PBXAggregateTarget "mobile-ffmpeg-min" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EC4551A1B4FBEB1BC5E73D4D4450E09 /* Debug */,
-				42320534CF9DE61092CDF0A5352A61B1 /* Release */,
+				1FADC6226286ECF749C4A1004BD5D4F6 /* Debug */,
+				9C46FCBFD5A7F5BB9DBA1ED4FF2CC23F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8DDA251118AD91AD5ACC083EDE2BB259 /* Build configuration list for PBXNativeTarget "Pods-SNFFmpeg" */ = {
+		66DFC7920028A7092B9579E026DF9390 /* Build configuration list for PBXNativeTarget "SNFileManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2F29680408F8FE71DE05AB7DA5EDE25A /* Debug */,
-				AFB37BE5DB333C51B07C7CA26E06F50C /* Release */,
+				92903D0BE001AEC5EB4391CD80E81CD1 /* Debug */,
+				CAC854648963BF7AA195374DAFB90A12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA7CDE0AA4F8CA1F27D93F7D6A6CA0F1 /* Build configuration list for PBXNativeTarget "Pods-SNFFmpegTests" */ = {
+		B4D98AD8772C94EE6311F5DD1253FBC0 /* Build configuration list for PBXNativeTarget "Pods-SNFFmpegTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				832DA718048D58DD7ECED644325CBE11 /* Debug */,
-				0A3F4B484594371A1AD18774461ED97D /* Release */,
+				54F145EAA1C79F350871B9F051A80173 /* Debug */,
+				C633BF91F761C6949ED44F34F0A7C1EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F5001391A2A35E558F8CD0CA5BE3C4C7 /* Build configuration list for PBXNativeTarget "Pods-SNFFmpegUITests" */ = {
+		E0D415FCA4B77481FC6D9ED433C6B8CB /* Build configuration list for PBXNativeTarget "Pods-SNFFmpeg" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EAE49673157E7B216761F49842E8DDE5 /* Debug */,
-				45FA161EBD20F15009AB1A60A0B2B7E0 /* Release */,
+				B97917BE42403F90CEE0345F9E7E562B /* Debug */,
+				2F210C43567442B9F0A4BEA97BCF27A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA423A8A9A369EF5021C905261576A90 /* Build configuration list for PBXNativeTarget "Pods-SNFFmpegUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC047C920265C379B4A59D555F2E2C69 /* Debug */,
+				D8C3ACC0B361BE9322FFED2F51432287 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -3,21 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2754D67810B35B3C2ED6FB62 /* libPods-SNFFmpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E65C6EE7223C597BBCAE211C /* libPods-SNFFmpeg.a */; };
-		5E59FAA321EB4F2700C642AB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E59FAA221EB4F2700C642AB /* AVFoundation.framework */; };
-		5E59FAA521EB4F3000C642AB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E59FAA421EB4F3000C642AB /* CoreMedia.framework */; };
-		5E59FAA721EB4F3B00C642AB /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E59FAA621EB4F3B00C642AB /* VideoToolbox.framework */; };
-		5E59FAA921EB4F6400C642AB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E59FAA821EB4F6400C642AB /* AudioToolbox.framework */; };
-		5E59FAAB21EB4F7200C642AB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E59FAAA21EB4F7200C642AB /* libz.tbd */; };
-		5E59FAAD21EB4F7E00C642AB /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E59FAAC21EB4F7E00C642AB /* libiconv.tbd */; };
-		5E59FAAF21EB4F8800C642AB /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E59FAAE21EB4F8800C642AB /* libbz2.tbd */; };
-		5E59FAB121EB4F9200C642AB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E59FAB021EB4F9200C642AB /* libc++.tbd */; };
 		5E59FAB421EB50F700C642AB /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 5E59FAB321EB50F700C642AB /* test.mp4 */; };
+		737B5B0F1CD6DF6B3DCDE6FA /* Pods_SNFFmpegUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 079C7A871AA280AD0964B7B2 /* Pods_SNFFmpegUITests.framework */; };
+		8E8C37D7E858B3801B6FCD53 /* Pods_SNFFmpeg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2776A35EBC0E312FD180B1F /* Pods_SNFFmpeg.framework */; };
 		9840D33D22424A5600D0FB11 /* test.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9840D33C22424A5600D0FB11 /* test.wav */; };
+		9884274E22F96FA700B2AE20 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9884274D22F96FA700B2AE20 /* SwiftViewController.swift */; };
 		98B8F0D521E7579E00387F7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B8F0D421E7579E00387F7C /* AppDelegate.m */; };
 		98B8F0D821E7579E00387F7C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B8F0D721E7579E00387F7C /* ViewController.m */; };
 		98B8F0DB21E7579E00387F7C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98B8F0D921E7579E00387F7C /* Main.storyboard */; };
@@ -26,8 +20,7 @@
 		98B8F0E321E757A100387F7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B8F0E221E757A100387F7C /* main.m */; };
 		98B8F0ED21E757A200387F7C /* SNFFmpegTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B8F0EC21E757A200387F7C /* SNFFmpegTests.m */; };
 		98B8F0F821E757A200387F7C /* SNFFmpegUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98B8F0F721E757A200387F7C /* SNFFmpegUITests.m */; };
-		FBB693D6434E3A2625743083 /* libPods-SNFFmpegUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D7B595BA07D70D8935794FE /* libPods-SNFFmpegUITests.a */; };
-		FC551DD7B6D928C05B76552D /* libPods-SNFFmpegTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 608EEDFAAE7F0BCDCAFB01C9 /* libPods-SNFFmpegTests.a */; };
+		A9DC0EA3C15A685EEBFA60B3 /* Pods_SNFFmpegTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C4EA2A52147F43AA77011F /* Pods_SNFFmpegTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01C4EA2A52147F43AA77011F /* Pods_SNFFmpegTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNFFmpegTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		079C7A871AA280AD0964B7B2 /* Pods_SNFFmpegUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNFFmpegUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08140FEDDFB546C9C34E5BF6 /* Pods-SNFFmpegUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNFFmpegUITests.debug.xcconfig"; path = "Target Support Files/Pods-SNFFmpegUITests/Pods-SNFFmpegUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		2DAD87C48CD08FDF3DFF93AE /* Pods-SNFFmpeg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNFFmpeg.release.xcconfig"; path = "Target Support Files/Pods-SNFFmpeg/Pods-SNFFmpeg.release.xcconfig"; sourceTree = "<group>"; };
 		5597AC46DCE44D906BC54B73 /* Pods-SNFFmpegTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNFFmpegTests.release.xcconfig"; path = "Target Support Files/Pods-SNFFmpegTests/Pods-SNFFmpegTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -60,9 +55,9 @@
 		5E59FAAE21EB4F8800C642AB /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		5E59FAB021EB4F9200C642AB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		5E59FAB321EB50F700C642AB /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
-		608EEDFAAE7F0BCDCAFB01C9 /* libPods-SNFFmpegTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNFFmpegTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D7B595BA07D70D8935794FE /* libPods-SNFFmpegUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNFFmpegUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9840D33C22424A5600D0FB11 /* test.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = test.wav; sourceTree = "<group>"; };
+		9884274C22F96FA700B2AE20 /* SNFFmpeg-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SNFFmpeg-Bridging-Header.h"; sourceTree = "<group>"; };
+		9884274D22F96FA700B2AE20 /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 		98B8F0D021E7579E00387F7C /* SNFFmpeg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNFFmpeg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B8F0D321E7579E00387F7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		98B8F0D421E7579E00387F7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,10 +74,10 @@
 		98B8F0F321E757A200387F7C /* SNFFmpegUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNFFmpegUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B8F0F721E757A200387F7C /* SNFFmpegUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNFFmpegUITests.m; sourceTree = "<group>"; };
 		98B8F0F921E757A200387F7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2776A35EBC0E312FD180B1F /* Pods_SNFFmpeg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNFFmpeg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D7313F96DE997D0F2E9D03 /* Pods-SNFFmpeg.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNFFmpeg.debug.xcconfig"; path = "Target Support Files/Pods-SNFFmpeg/Pods-SNFFmpeg.debug.xcconfig"; sourceTree = "<group>"; };
 		C66EF8A0B0F9335CD674902D /* Pods-SNFFmpegTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNFFmpegTests.debug.xcconfig"; path = "Target Support Files/Pods-SNFFmpegTests/Pods-SNFFmpegTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB897F14AEBB99A26D3B7EEC /* Pods-SNFFmpegUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNFFmpegUITests.release.xcconfig"; path = "Target Support Files/Pods-SNFFmpegUITests/Pods-SNFFmpegUITests.release.xcconfig"; sourceTree = "<group>"; };
-		E65C6EE7223C597BBCAE211C /* libPods-SNFFmpeg.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNFFmpeg.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,15 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E59FAB121EB4F9200C642AB /* libc++.tbd in Frameworks */,
-				5E59FAAF21EB4F8800C642AB /* libbz2.tbd in Frameworks */,
-				5E59FAAD21EB4F7E00C642AB /* libiconv.tbd in Frameworks */,
-				5E59FAAB21EB4F7200C642AB /* libz.tbd in Frameworks */,
-				5E59FAA921EB4F6400C642AB /* AudioToolbox.framework in Frameworks */,
-				5E59FAA721EB4F3B00C642AB /* VideoToolbox.framework in Frameworks */,
-				5E59FAA521EB4F3000C642AB /* CoreMedia.framework in Frameworks */,
-				5E59FAA321EB4F2700C642AB /* AVFoundation.framework in Frameworks */,
-				2754D67810B35B3C2ED6FB62 /* libPods-SNFFmpeg.a in Frameworks */,
+				8E8C37D7E858B3801B6FCD53 /* Pods_SNFFmpeg.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC551DD7B6D928C05B76552D /* libPods-SNFFmpegTests.a in Frameworks */,
+				A9DC0EA3C15A685EEBFA60B3 /* Pods_SNFFmpegTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBB693D6434E3A2625743083 /* libPods-SNFFmpegUITests.a in Frameworks */,
+				737B5B0F1CD6DF6B3DCDE6FA /* Pods_SNFFmpegUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,9 +119,9 @@
 				5E59FAA621EB4F3B00C642AB /* VideoToolbox.framework */,
 				5E59FAA421EB4F3000C642AB /* CoreMedia.framework */,
 				5E59FAA221EB4F2700C642AB /* AVFoundation.framework */,
-				E65C6EE7223C597BBCAE211C /* libPods-SNFFmpeg.a */,
-				608EEDFAAE7F0BCDCAFB01C9 /* libPods-SNFFmpegTests.a */,
-				6D7B595BA07D70D8935794FE /* libPods-SNFFmpegUITests.a */,
+				B2776A35EBC0E312FD180B1F /* Pods_SNFFmpeg.framework */,
+				01C4EA2A52147F43AA77011F /* Pods_SNFFmpegTests.framework */,
+				079C7A871AA280AD0964B7B2 /* Pods_SNFFmpegUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,12 +164,14 @@
 				98B8F0D421E7579E00387F7C /* AppDelegate.m */,
 				98B8F0D621E7579E00387F7C /* ViewController.h */,
 				98B8F0D721E7579E00387F7C /* ViewController.m */,
+				9884274D22F96FA700B2AE20 /* SwiftViewController.swift */,
 				5E59FAB221EB50CC00C642AB /* Resources */,
 				98B8F0D921E7579E00387F7C /* Main.storyboard */,
 				98B8F0DC21E757A100387F7C /* Assets.xcassets */,
 				98B8F0DE21E757A100387F7C /* LaunchScreen.storyboard */,
 				98B8F0E121E757A100387F7C /* Info.plist */,
 				98B8F0E221E757A100387F7C /* main.m */,
+				9884274C22F96FA700B2AE20 /* SNFFmpeg-Bridging-Header.h */,
 			);
 			path = SNFFmpeg;
 			sourceTree = "<group>";
@@ -229,6 +218,7 @@
 				98B8F0CC21E7579E00387F7C /* Sources */,
 				98B8F0CD21E7579E00387F7C /* Frameworks */,
 				98B8F0CE21E7579E00387F7C /* Resources */,
+				2E290E1E62B1751268DD0683 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -288,6 +278,7 @@
 				TargetAttributes = {
 					98B8F0CF21E7579E00387F7C = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
 					};
 					98B8F0E721E757A200387F7C = {
 						CreatedOnToolsVersion = 10.1;
@@ -349,6 +340,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2E290E1E62B1751268DD0683 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SNFFmpeg/Pods-SNFFmpeg-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SNFFmpeg/Pods-SNFFmpeg-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SNFFmpeg/Pods-SNFFmpeg-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8B34FACD27418D8252F655F2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -422,6 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9884274E22F96FA700B2AE20 /* SwiftViewController.swift in Sources */,
 				98B8F0D821E7579E00387F7C /* ViewController.m in Sources */,
 				98B8F0E321E757A100387F7C /* main.m in Sources */,
 				98B8F0D521E7579E00387F7C /* AppDelegate.m in Sources */,
@@ -596,6 +605,7 @@
 			baseConfigurationReference = B5D7313F96DE997D0F2E9D03 /* Pods-SNFFmpeg.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNFFmpeg/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -608,6 +618,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNFFmpeg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SNFFmpeg/SNFFmpeg-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -617,6 +630,7 @@
 			baseConfigurationReference = 2DAD87C48CD08FDF3DFF93AE /* Pods-SNFFmpeg.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNFFmpeg/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -629,6 +643,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNFFmpeg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SNFFmpeg/SNFFmpeg-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -637,6 +653,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C66EF8A0B0F9335CD674902D /* Pods-SNFFmpegTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNFFmpegTests/Info.plist;
@@ -656,6 +673,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5597AC46DCE44D906BC54B73 /* Pods-SNFFmpegTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNFFmpegTests/Info.plist;
@@ -675,6 +693,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 08140FEDDFB546C9C34E5BF6 /* Pods-SNFFmpegUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNFFmpegUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -693,6 +712,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB897F14AEBB99A26D3B7EEC /* Pods-SNFFmpegUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SNFFmpegUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
